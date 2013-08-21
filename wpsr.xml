@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<items>
+    
+    <content version="2.4.9.5">
+        <![CDATA[
+        
+        <div class="shareList"><p>For past 2-3 months I was unable to give proper update and support for the plugin. Sorry for that, Iwas actually involved in my other projects. </p><p>The next version 2.5 will be a complete change with easy to customize revamped admin page, new features and more. I'm excited to work on it. I'm sure I'll bring that ASAP.</p><p>Thank you</p><p><a href="http://www.aakashweb.com/" target="_blank">Aakash Chakravarthy</a></p></div><br/>
+        
+        <h4>New features and bug fixes in v2.4.9.5</h4>
+        <ol>
+            <li>Fixed Twitter title encoding bug.</li>
+            <li>Added Facebook like and send button to the floating sharebar.</li>
+            <li>Fixed bug in sharethis shortcode.</li>
+            <li>Added option to disable mobile mode for floating sharebar.</li>
+            <li>Fixed the irregular position of large pinterest button.</li>
+        </ol>
+        
+		<p>More information in the <a href="http://www.aakashweb.com/wordpress-plugins/wp-socializer/" target="_blank">Changelog</a></p>
+		
+		<h3>Share, donate and Support</h3>
+        <p>If you like this plugin, consider sharing it. This plugin will be useful for many other WordPress users.</p>
+		
+		<p>Donate: If you find this plugin useful, <a href="http://bit.ly/wpsrDonation">consider making a donation</a>, it will make me happy for this plugin!!</p>
+		
+        <h3>Demo Video</h3>
+        <iframe width="550" height="335" src="http://www.youtube.com/embed/1uimAE8rFYE?rel=0" frameborder="0" allowfullscreen></iframe>
+ 
+        ]]>
+    </content>
+    
+    <content version="2.4.9">
+        <![CDATA[
+        
+        <h4>New features in v2.4.9</h4>
+        <ol>
+    		<li>Added mobile optimization or small screen support for the floating sharebar</li>
+			<li>Facebook comments popup clipping is fixed.</li>
+			<li>Sharethis "undefined" object issue is fixed.</li>
+			<li>Social button CSS file size is reduced and notable tweaks are made to the social buttons.</li>
+			<li>Scripts and styles are now loaded properly in the frontend as per the API</li>
+			<li>Source code is revised and optimized.</li>
+			<li>Some minor admin UI improvements are made. </li>
+		</ol>
+		<p>More information in the <a href="http://www.aakashweb.com/wordpress-plugins/wp-socializer/" target="_blank">Changelog</a></p>
+		
+		<h3>Share, donate and Support</h3>
+        <p>If you like this plugin, consider sharing it. This plugin will be useful for many other WordPress users.</p>
+		
+		<p>Donate: If you find this plugin useful, <a href="http://bit.ly/wpsrDonation">consider making a donation</a>, it will make me happy for this plugin!!</p>
+		
+        <h4>Check out the <b>Smart Load</b> feature</h4>
+        <p>The new Smart Load feature loads button scripts asynchronously or loads after a specific time (after 3 or 4 seconds as specified). This makes the buttons to load faster than before. Share your reviews in the <a href="http://www.aakashweb.com/wordpress-plugins/wp-socializer/" target="_blank">Plugin home page</a>. </p>
+        <iframe width="550" height="309" src="http://www.youtube.com/embed/OY7XdJnUqmo" frameborder="0" allowfullscreen></iframe>
+		
+        <h3>Demo Video</h3>
+        <iframe width="550" height="335" src="http://www.youtube.com/embed/1uimAE8rFYE?rel=0" frameborder="0" allowfullscreen></iframe>
+ 
+        ]]>
+    </content>
+
+	<content version="2.4.8">
+        <![CDATA[
+        
+        <h4>New features in v2.4.8</h4>
+        <ol>
+			<li>Added option to adjust the distance between the floating sharebar and the post.</li>
+			<li>Sharebar can be floated on right side also.</li>
+			<li>More than 90 Sharethis services are made available for selection.</li>
+			<li>Added option to hide the credit links.</li>
+			<li>Minor UI tweaks.</li>
+		</ol>
+		
+		<h3>Share, donate and Support</h3>
+        <p>If you like this plugin, consider sharing it. This plugin will be useful for many other WordPress users.</p>
+		
+		<p>Donate: If you find this plugin useful, <a href="http://bit.ly/wpsrDonation">consider making a donation</a>, it will make me happy for this plugin!!</p>
+		
+        <h4>Check out the <b>Smart Load</b> feature</h4>
+        <p>The new Smart Load feature loads button scripts asynchronously or loads after a specific time (after 3 or 4 seconds as specified). This makes the buttons to load faster than before. Share your reviews in the <a href="http://www.aakashweb.com/wordpress-plugins/wp-socializer/" target="_blank">Plugin home page</a>. </p>
+        <iframe width="550" height="309" src="http://www.youtube.com/embed/OY7XdJnUqmo" frameborder="0" allowfullscreen></iframe>
+		
+        <h4>Features overview</h4>
+        <ol>
+          <li>Floating share bar (horizontal and vertical modes).</li>
+          <li>Smart Load feature.</li>
+          <li>New social bookmarking buttons: Google+, Pinterest &amp; OkNotizie.</li>
+          <li>Admin UI completely redesigned to suit all users.</li>
+          <li>A lot of bugs are fixed.</li>
+        </ol>
+        <p>More information in the <a href="http://www.aakashweb.com/wordpress-plugins/wp-socializer/" target="_blank">Changelog</a></p>
+        
+        <h3>Demo Video</h3>
+        <iframe width="550" height="335" src="http://www.youtube.com/embed/1uimAE8rFYE?rel=0" frameborder="0" allowfullscreen></iframe>
+ 
+        ]]>
+    </content>
+
+	<content version="2.4.7">
+        <![CDATA[
+        
+        <h4>Bugs fixed in v2.4.7</h4>
+        <ol>
+			<li>Incompatibility of the "latest jQuery version" with other plugins is fixed.</li>
+			<li>Several WordPress notices are fixed.</li>
+			<li>Encoding of Hyphen to <code>–</code> is now corrected for Twitter button.</li>
+		</ol>
+		
+		<h3>Share, donate and Support</h3>
+        <p>If you like this plugin, consider sharing it. This plugin will be useful for many other WordPress users.</p>
+		
+		<p>Donate: If you find this plugin useful, <a href="http://bit.ly/wpsrDonation">consider making a donation</a>, it will make me happy for this plugin!!</p>
+		
+        <h4>Check out the <b>Smart Load</b> feature</h4>
+        <p>The new Smart Load feature loads button scripts asynchronously or loads after a specific time (after 3 or 4 seconds as specified). This makes the buttons to load faster than before. Share your reviews in the <a href="http://www.aakashweb.com/wordpress-plugins/wp-socializer/" target="_blank">Plugin home page</a>. </p>
+        <iframe width="550" height="309" src="http://www.youtube.com/embed/OY7XdJnUqmo" frameborder="0" allowfullscreen></iframe>
+		
+        <h4>Features overview</h4>
+        <ol>
+          <li>Floating share bar (horizontal and vertical modes).</li>
+          <li>Smart Load feature.</li>
+          <li>New social bookmarking buttons: Google+, Pinterest &amp; OkNotizie.</li>
+          <li>Admin UI completely redesigned to suit all users.</li>
+          <li>A lot of bugs are fixed.</li>
+        </ol>
+        <p>More information in the <a href="http://www.aakashweb.com/wordpress-plugins/wp-socializer/" target="_blank">Changelog</a></p>
+        
+        <h3>Demo Video</h3>
+        <iframe width="550" height="335" src="http://www.youtube.com/embed/1uimAE8rFYE?rel=0" frameborder="0" allowfullscreen></iframe>
+ 
+        ]]>
+    </content>
+
+    <content version="2.4.6">
+        <![CDATA[
+        
+        <h4>Bugs fixed in v2.4.6</h4>
+        <ol>
+    		<li>Retweet floating share bar "username" bug fixed</li>
+			<li>Smarter tracing of images in a post for pinterest</li>
+			<li>Revised code for getting post details</li>
+			<li>Bug fixed in the "title" tag for twitter in the urlencoding of hyphen.</li>
+			<li>Bug fixed in the mailto link for the "email" button</li>
+			<li>Changed hover title of "add to favorites"</li>
+			<li>Cleared various "error notices" in the front end</li>
+			<li>Fixed several "&amp;" to "&amp;amp" conversion for the social buttons</li>
+			<li>Fixed no "alt" attribute to retweet and pinterest buttons </li>
+			<li>Fixed several "W3 Validator" errors</li>
+			<li>Admin interface tweaked and now more helpful and easy</li>
+			<li>Admin page tabs are renamed</li>
+			<li>Admin page "In posts and pages"  is renamed to "Shortcodes"</li>
+			<li>Bug fixed in the publisher key field in the admin page</li>
+			<li>Removed url encoding for Sharethis buttons</li>
+			<li>Fixed Facebook send form "Clipping"</li>
+		</ol>
+		
+		<h3>Share, donate and Support</h3>
+        <p>If you like this plugin, consider sharing it. This plugin will be useful for many other WordPress users.</p>
+		
+		<p>Donate: If you find this plugin useful, <a href="http://bit.ly/wpsrDonation">consider making a donation</a>, it will make me happy for this plugin!!</p>
+		
+        <h4>Check out the <b>Smart Load</b> feature</h4>
+        <p>The new Smart Load feature loads button scripts asynchronously or loads after a specific time (after 3 or 4 seconds as specified). This makes the buttons to load faster than before. Share your reviews in the <a href="http://www.aakashweb.com/wordpress-plugins/wp-socializer/" target="_blank">Plugin home page</a>. </p>
+        <iframe width="550" height="309" src="http://www.youtube.com/embed/OY7XdJnUqmo" frameborder="0" allowfullscreen></iframe>
+		
+        <h4>Features overview</h4>
+        <ol>
+          <li>Floating share bar (horizontal and vertical modes).</li>
+          <li>Smart Load feature.</li>
+          <li>New social bookmarking buttons: Google+, Pinterest &amp; OkNotizie.</li>
+          <li>Admin UI completely redesigned to suit all users.</li>
+          <li>A lot of bugs are fixed.</li>
+        </ol>
+        <p>More information in the <a href="http://www.aakashweb.com/wordpress-plugins/wp-socializer/" target="_blank">Changelog</a></p>
+        
+        <h3>Demo Video</h3>
+        <iframe width="550" height="335" src="http://www.youtube.com/embed/1uimAE8rFYE?rel=0" frameborder="0" allowfullscreen></iframe>
+ 
+        ]]>
+    </content>
+
+    <content version="2.4.5">
+        <![CDATA[
+        
+        <h4>New in v2.4.5</h4>
+        <ol>
+            <li>New "Smart Load" feature to load buttons faster using async method.</li>
+        	<li>Can load button scripts after a specific time (Smart Load).</li>
+        	<li>Facebook button now uses HTML5 code instead of iframe.</li>
+        	<li>Facebook Send button now available.</li>
+        	<li>TinyMCE toolbar button now updated.</li>
+        </ol>
+        
+        <h4>Check out the <b>Smart Load</b> feature</h4>
+        <p>The new &quot;Smart Load&quot; feature loads button scripts asynchronously or loads after a specific time (after 3 or 4 seconds as specified). This makes the buttons to load faster than before. Share your reviews in the <a href="http://www.aakashweb.com/wordpress-plugins/wp-socializer/" target="_blank">Plugin home page</a>. </p>
+        
+        <h4>New in version 2.4.x :</h4>
+        <ol>
+          <li>Floating share bar (horizontal and vertical modes).</li>
+          <li>Smart Load feature.</li>
+          <li>New social bookmarking buttons: Google+, Pinterest &amp; OkNotizie.</li>
+          <li>Admin UI completely redesigned to suit all users.</li>
+          <li>A lot of bugs are fixed.</li>
+        </ol>
+        <p>More information in the <a href="http://www.aakashweb.com/wordpress-plugins/wp-socializer/" target="_blank">Changelog</a></p>
+        
+        <h3>Demo Video</h3>
+        <iframe width="550" height="335" src="http://www.youtube.com/embed/1uimAE8rFYE?rel=0" frameborder="0" allowfullscreen></iframe>
+        
+        <h3>Share, donate and Support</h3>
+        <p>If you like this plugin, consider sharing it. This plugin will be useful for many other WordPress users.</p>
+        
+        ]]>
+    </content>
+
+     <content version="2.4.4">
+        <![CDATA[
+        
+        <h4>New in v2.4.4</h4>
+        <ol>
+            <li>New CSS3 on-hover effects for social bookmarking buttons (Magnify and Jump).</li>
+            <li>New "Comments" button for the floating share bar.</li>
+            <li>Updated "Twitter" button icon.</li>
+            <li>Floating share bar Javascript is revised and fade effects are added.</li>
+        </ol>
+        
+        <h4>Try out the new features</h4>
+        <img src="http://s.wordpress.org/extend/plugins/wp-socializer/screenshot-7.png" width="100%" style="border:1px solid #ccc; margin:10px" title="New features"/>
+        
+        <h4>New in version 2.4.x :</h4>
+        <ol>
+          <li>Floating share bar (horizontal and vertical modes).</li>
+          <li>New social bookmarking buttons: Google+, Pinterest &amp; OkNotizie.</li>
+          <li>Admin UI completely redesigned to suit all users.</li>
+          <li>A lot of bugs are fixed.</li>
+        </ol>
+        <p>More information in the <a href="http://www.aakashweb.com/wordpress-plugins/wp-socializer/" target="_blank">Changelog</a></p>
+        
+        <h3>Demo Video</h3>
+        <iframe width="550" height="335" src="http://www.youtube.com/embed/1uimAE8rFYE?rel=0" frameborder="0" allowfullscreen></iframe>
+        
+        <h3>Share, donate and Support</h3>
+        <p>If you like this plugin, consider sharing it. This plugin will be useful for many other WordPress users.</p>
+        
+        ]]>
+    </content>
+
+     <content version="2.4.3">
+        <![CDATA[
+        
+        <h4>Changes made in v2.4.3</h4>
+        <ol>
+            <li>XSS Vulnerability issue in the "Services selector" page is fixed</li>
+            <li>Added nounce to the Admin page forms</li>
+            <li>Fixed bug in the Twitter social button template.</li>
+            <li>Fixed the collision of the quotes in the excerpt with the HTML tags for the email button.</li>
+        </ol>
+        
+        <h4>New in version 2.4.x :</h4>
+        <ol>
+          <li>Floating share bar (horizontal and vertical modes).</li>
+          <li>New social bookmarking buttons: Google+, Pinterest &amp; OkNotizie.</li>
+          <li>Admin UI completely redesigned to suit all users.</li>
+          <li>A lot of bugs are fixed.</li>
+        </ol>
+        <p>More information in the <a href="http://www.aakashweb.com/wordpress-plugins/wp-socializer/" target="_blank">Changelog</a></p>
+        
+        <h3>Demo Video</h3>
+        <iframe width="550" height="335" src="http://www.youtube.com/embed/1uimAE8rFYE?rel=0" frameborder="0" allowfullscreen></iframe>
+        
+        <h3>Share, donate and Support</h3>
+        <p>If you like this plugin, consider sharing it. This plugin will be useful for many other WordPress users.</p>
+        
+        ]]>
+    </content>
+
+    <content version="2.4.2">
+        <![CDATA[
+        
+        <h4>Changes made in v2.4.2</h4>
+        <ol>
+            <li>Facebook like button centered in the left float sharing bar.</li>
+            <li>Facebook like button iframe CSS zero margin fix is done for themes.</li>
+            <li>Bug fixed in the <code>wp_socializer();</code> function for printing templates</li>
+            <li>Retweet button now traces the title of the post from the home page</li>
+            <li>Small admin interface tweaks</li>
+        </ol>
+        
+        <h4>New in version 2.4.x :</h4>
+        <ol>
+          <li>Floating share bar (horizontal and vertical modes).</li>
+          <li>New social bookmarking buttons: Google+, Pinterest &amp; OkNotizie.</li>
+          <li>Admin UI completely redesigned to suit all users.</li>
+          <li>A lot of bugs are fixed.</li>
+        </ol>
+        <p>More information in the <a href="http://www.aakashweb.com/wordpress-plugins/wp-socializer/" target="_blank">Changelog</a></p>
+        
+        <h3>Demo Video</h3>
+        <iframe width="550" height="335" src="http://www.youtube.com/embed/1uimAE8rFYE?rel=0" frameborder="0" allowfullscreen></iframe>
+        
+        <h3>Share, donate and Support</h3>
+        <p>If you like this plugin, consider sharing it. This plugin will be useful for many other WordPress users.</p>
+        
+        ]]>
+    </content>
+
+
+    <content version="2.4.1">
+        <![CDATA[
+        
+        <h4>Changes made in v2.4.1</h4>
+        <ol>
+            <li>Facebook like button bug is fixed (removed the Facebook SDK and now using the iframe)</li>
+            <li>Facebook send button not available (due to the removal of FB SDK)</li>
+            <li>Email button bug fixed.</li>
+            <li>Added query strings to all WP Socializer CSS and JS files.</li>
+            <li>Bit.ly bug fixed</li>
+        </ol>
+        
+        <h4>New in version 2.4.x :</h4>
+        <ol>
+          <li>Floating share bar (horizontal and vertical modes).</li>
+          <li>New social bookmarking buttons: Google+, Pinterest &amp; OkNotizie.</li>
+          <li>Admin UI completely redesigned to suit all users.</li>
+          <li>A lot of bugs are fixed.</li>
+        </ol>
+        <p>More information in the <a href="http://www.aakashweb.com/wordpress-plugins/wp-socializer/" target="_blank">Changelog</a></p>
+        
+        <h3>Demo Video</h3>
+        <iframe width="550" height="335" src="http://www.youtube.com/embed/1uimAE8rFYE?rel=0" frameborder="0" allowfullscreen></iframe>
+        
+        <h3>Share, donate and Support</h3>
+        <p>If you like this plugin, consider sharing it. This plugin will be useful for many other WordPress users.</p>
+        
+        ]]>
+    </content>
+
+    <content version="2.4">
+        <![CDATA[
+        
+        <h4>New in this version:</h4>
+        <ol>
+          <li>Floating share bar (horizontal and vertical modes).</li>
+          <li>New social bookmarking buttons: Google+, Pinterest &amp; OkNotizie.</li>
+          <li>Admin UI completely redesigned to suit all users.</li>
+          <li>A lot of bugs are fixed.</li>
+        </ol>
+        <p>More information in the <a href="http://www.aakashweb.com/wordpress-plugins/wp-socializer/" target="_blank">Changelog</a></p>
+        
+        <h3>Demo Video</h3>
+        <iframe width="550" height="335" src="http://www.youtube.com/embed/1uimAE8rFYE?rel=0" frameborder="0" allowfullscreen></iframe>
+        
+        <h3>Share, donate and Support</h3>
+        <p>If you like this plugin, consider sharing it. This plugin will be useful for many other WordPress users.</p>
+        
+        ]]>
+    </content>
+
+    <content version="2.3">
+      <![CDATA[
+      <h4>New in this version: </h4>
+     <ol>
+     <li>Facebook like box, Google + badge widget is included.</li>
+     <li>LinkedIn buttons are added.</li>
+     <li>Google Buzz is removed.</li>
+     <li>Templates are updated.</li>
+     <li>Minor admin UI changes and improvements.</li>
+     </ol>
+      
+      <h2>Using WP Socializer</h2>
+      <p>Using WP Socializer is very very easy. Just follow the steps:</p>
+      <ol>
+        <li>Customize the buttons settings in the respective tabs.</li>
+        <li>Go to the &quot;Placement&quot; tab (Green colored) and insert the button code in the textboxes available.</li>
+        <li>In that tab, select the pages where you want to show the buttons.</li>
+        <li>Save it !</li>
+      </ol>
+      
+      <h2>Using the "One click" feature</h2>
+      <p>If you find difficult customizing WP Socializer. Go to the "One click" tab, select the templates, which are made by default. Then save it !</p>
+      
+      <h4 class="toggleNext pointer">Using WP Socializer (click to see video)</h4>
+      <div style="display:none"><object style="height: 299px; width: 100%"><param name="movie" value="http://www.youtube.com/v/0G-joyseg7U?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/0G-joyseg7U?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="100%" height="306"></object></div>
+      ]]>
+    </content>
+
+   <content version="2.2">
+    <![CDATA[
+    <h4>New in this version: </h4>
+    <ol>
+      <li>Conflict with the tinyMCE editor fixed.</li>
+      <li>A "WP Socializer" button is added to the visual editing and code editing toolbar for inserting social buttons into posts easily.</li>
+    </ol>
+    
+    <h2>Using WP Socializer</h2>
+    <p>Using WP Socializer is very very easy. Just follow the steps:</p>
+    <ol>
+      <li>Customize the buttons settings in the respective tabs.</li>
+      <li>Go to the &quot;Placement&quot; tab (Green colored) and insert the button code in the textboxes available.</li>
+      <li>In that tab, select the pages where you want to show the buttons.</li>
+      <li>Save it !</li>
+    </ol>
+    
+    <h2>Using the "One click" feature</h2>
+    <p>If you find difficult customizing WP Socializer. Go to the "One click" tab, select the templates, which are made by default. Then save it !</p>
+    
+    <h4 class="toggleNext pointer">Using WP Socializer (click to see video)</h4>
+    <div style="display:none"><object style="height: 299px; width: 100%"><param name="movie" value="http://www.youtube.com/v/0G-joyseg7U?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/0G-joyseg7U?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="100%" height="306"></object></div>
+    ]]>
+  </content>
+
+  <content version="2.1">
+  <![CDATA[
+  <h4>New in this version: </h4>
+  <ol>
+    <li>Encoded title fix for Sharethis buttons.</li>
+    <li>Social buttons max-width bug fixed for IE 8.</li>
+    <li>Admin UI and some small tweaks</li>
+  </ol>
+  
+  <h2>Using WP Socializer</h2>
+  <p>Using WP Socializer is very very easy. Just follow the steps:</p>
+  <ol>
+    <li>Customize the buttons settings in the respective tabs.</li>
+    <li>Go to the &quot;Placement&quot; tab (Green colored) and insert the button code in the textboxes available.</li>
+    <li>In that tab, select the pages where you want to show the buttons.</li>
+    <li>Save it !</li>
+  </ol>
+  
+  <h2>Using the "One click" feature</h2>
+  <p>If you find difficult customizing WP Socializer. Go to the "One click" tab, select the templates, which are made by default. Then save it !</p>
+  
+  <h4 class="toggleNext pointer">Using WP Socializer (click to see video)</h4>
+  <div style="display:none"><object style="height: 299px; width: 100%"><param name="movie" value="http://www.youtube.com/v/0G-joyseg7U?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/0G-joyseg7U?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="100%" height="306"></object></div>
+  ]]>
+  </content>
+
+  <content version="2.0">
+  <![CDATA[
+    <b>New in this version :</b>
+<ol>
+  <li>5 more social buttons added.</li>
+  <li>New addthis buttons introduced(toolbox, sharecount) </li>
+  <li>Google +1 introduced. </li>
+  <li>Updated UI.</li>
+  <li>More than 25 bug fixes.</li>
+  <li>Added integration with HTML Javascript adder plugin.</li>
+</ol>
+<b>Using WP Socializer</b>
+<object style="height: 299px; width: 100%"><param name="movie" value="http://www.youtube.com/v/0G-joyseg7U?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/0G-joyseg7U?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="100%" height="306"></object>
+  ]]>
+  </content>
+</items>

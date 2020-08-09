@@ -1,4 +1,1 @@
-An empty readme file
-===================
-
-Nothing here :P
+Resources needed for aakashweb.com

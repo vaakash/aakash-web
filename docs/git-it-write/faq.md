@@ -4,7 +4,7 @@ title: Frequently Asked Questions
 
 ### What is this plugin for ?
 
-Github to WordPress plugin allows to publish posts in WordPress using the files present in a Github repository
+Git it Write plugin allows to publish posts in WordPress using the files present in a Github repository
 
 ### What is the use of this plugin ?
 
@@ -13,6 +13,10 @@ Using this plugin you can manage the post content in a Github repository and wor
 ### When a post is edited in WordPress will that update the file in the Github repository ?
 
 No. This plugin won't sync post content. It is a one way update. Only changes made to the Github repository will update the posts and not otherwise.
+
+### Which Git hosting services are supported ?
+
+Right now Github is only supported.
 
 ### What all files in the repository will be published ?
 

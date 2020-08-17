@@ -1,5 +1,7 @@
 ---
-title: Frequently Asked Questions
+title: FAQ
+taxonomy:
+    doc_category: wordpress-plugins
 ---
 
 ### What is this plugin for ?

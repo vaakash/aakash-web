@@ -1,3 +1,10 @@
+---
+title: FAQ
+menu_order: 2
+taxonomy:
+    doc_category: wordpress-plugins
+---
+
 ### Q: RSS feed is not refreshing
 
 A: Super RSS Reader uses WordPress's default feed reading module. By default WordPress caches the RSS feed for 12 hours. You can change this default value by adding the below code to your theme's function.php file.

@@ -1,3 +1,9 @@
+---
+title: Advanced post navigator - Doc
+taxonomy:
+    doc_category: wordpress-plugins
+---
+
 ## Installation
 
 - Buy and download the plugin at Codecanyon

@@ -1,3 +1,10 @@
+---
+title: Import/Export
+menu_order: 4
+taxonomy:
+    doc_category: wordpress-plugins
+---
+
 With shortcoder v5+ using WordPress's custom post type API, the native import/export tools can be used to import and export shortcodes.
 
 ### Export

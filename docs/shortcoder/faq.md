@@ -1,4 +1,11 @@
-<div class="accordion">
+---
+title: FAQ
+menu_order: 5
+taxonomy:
+    doc_category: wordpress-plugins
+---
+
+<div class="accordion" markdown="1">
 
 ### Q: My shortcode is not working !
 <div markdown="1">

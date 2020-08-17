@@ -1,3 +1,9 @@
+---
+title: jQuery conditioner
+taxonomy:
+    doc_category: jquery-plugins
+---
+
 ## Setting Options in Conditioner
 
 Options can be set in two different ways in jQuery conditioner.

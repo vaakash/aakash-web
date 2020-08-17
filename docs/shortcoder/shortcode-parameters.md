@@ -1,3 +1,10 @@
+---
+title: Shortcode parameters
+menu_order: 2
+taxonomy:
+    doc_category: wordpress-plugins
+---
+
 With shortcode parameters certain dynamic values can be added to the shortcode content. There are 5 different types of shortcode parameters.
 
 Note: WordPress information and Date parameters types will be affected if any caching plugin is used to cache the page. These two types will best work if no caching is enabled on the posts/pages.

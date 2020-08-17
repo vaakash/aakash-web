@@ -1,3 +1,10 @@
+---
+title: Custom parameters
+menu_order: 3
+taxonomy:
+    doc_category: wordpress-plugins
+---
+
 Custom parameters in Shortcoder provide an ability to change shortcode content when the shortcode is used. Custom parameters are tokens enclosed within `%%` and are placed in shortcode content. These tokens can be replaced with whatever value when the shortcoder is used by passing an attribute of the same name of the parameter.
 
 With custom parameters simple templates can be created and later the parameters can be changed when shortcode is used. Custom parameters cannot have spaces and must be wrapped in `%%` double percentage signs. Example `%%text%%`. This custom parameter can be replaced like below.

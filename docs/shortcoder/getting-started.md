@@ -1,3 +1,10 @@
+---
+title: Getting started
+menu_order: 1
+taxonomy:
+    doc_category: wordpress-plugins
+---
+
 ## Syntax of shortcodes created by shortcoder
 
 Shortcodes created by shortcoder follow the standard WordPress shortcode syntax. They have the name `sc` and a `name` attribute. The `name` attribute is used to identify the shortcode content to execute.

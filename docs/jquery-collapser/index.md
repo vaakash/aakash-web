@@ -1,3 +1,9 @@
+---
+title: jQuery Collapser
+taxonomy:
+    doc_category: jquery-plugins
+---
+
 ## Usage
 
 Include jQuery and jQuery collapser in the page. Attach the `collapser` method to the elements after the DOM is ready to be manipulated.

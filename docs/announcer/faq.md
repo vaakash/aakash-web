@@ -1,3 +1,9 @@
+---
+title: FAQ
+taxonomy:
+    doc_category: wordpress-plugins
+---
+
 ### How many announcements can we create ?
 
 We can add unlimited announcements to the site, there are no restrictions.

@@ -1,3 +1,9 @@
+---
+title: Ultimate floating widgets
+taxonomy:
+    doc_category: wordpress-plugins
+---
+
 ## Installation
 
 - Buy and download the plugin.

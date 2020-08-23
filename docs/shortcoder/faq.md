@@ -50,7 +50,7 @@ A: Currently there is no tool provided to identify and delete shortcodes. You ca
 
 ### Q: Can I use the ID instead of name to identify the shortcode ?
 
-A: Yes, please use `[sc sc_id="ID_of_shortcode" ]`
+A: Yes, please use `[print_sc sc='{sc sc_id="ID_of_shortcode"}']`
 
 ### Q: Can I use any other shortcode inside shortcode content ?
 
@@ -80,7 +80,7 @@ A: Yes. After v5.0 upgrade, all the shortcodes are upgraded to a format where sp
 
 ### Q: Do I need to update my posts with the new shortcode name since spaces are replaced with hyphens ?
 
-A: No. There is no need to make any changes. For example, before v5.0 if you had used a shortcode `[sc name="i have space" ]` in your posts then after v5.0, shortcoder will automatically find and execute the correct shortcode which has the name `i-have-space`. You can make changes if needed but it is not necessary. Going forward it is better to use the current name whatever is given for the shortcode.
+A: No. There is no need to make any changes. For example, before v5.0 if you had used a shortcode `[print_sc sc='{sc name="i have space"}']` in your posts then after v5.0, shortcoder will automatically find and execute the correct shortcode which has the name `i-have-space`. You can make changes if needed but it is not necessary. Going forward it is better to use the current name whatever is given for the shortcode.
 
 ### Q: After v5.0 upgrade, I have duplicate shortcodes.
 

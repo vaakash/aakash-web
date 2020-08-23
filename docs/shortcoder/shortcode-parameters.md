@@ -19,7 +19,7 @@ This shortcode parameter type allows to insert dates in shortcode content. One i
 
 ### Shortcode enclosed content
 
-With this shortcode parameter, the content which is enclosed within the shortcode can be replaced inside the shortcode content. Example: If a shortcode `[sc name="my_shortcode"]My enclosed content[/sc]` is used and then `$$enclosed_content$$` parameter used in shortcode content will be replaced with "My enclosed content"
+With this shortcode parameter, the content which is enclosed within the shortcode can be replaced inside the shortcode content. Example: If a shortcode `[print_sc sc='{sc name="my_shortcode"}My enclosed content{/sc}']` is used and then `$$enclosed_content$$` parameter used in shortcode content will be replaced with "My enclosed content"
 
 ### Custom parameters
 

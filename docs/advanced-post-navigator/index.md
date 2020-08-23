@@ -1,5 +1,5 @@
 ---
-title: Advanced post navigator - Doc
+title: Advanced post navigator
 taxonomy:
     doc_category: wordpress-plugins
 ---
@@ -26,8 +26,8 @@ taxonomy:
 
 A: This can be due to some Javascript problems in the page.
 
--   The plugin is tested in various environments and it doesn't have any bug in the JS file. It works 100%.
--   The not working of the plugin will be due to some other external JS files included in the page. Some other JS files collide with the plugin's source leading to errors.
+- The plugin is tested in various environments and it doesn't have any bug in the JS file. It works 100%.
+- The not working of the plugin will be due to some other external JS files included in the page. Some other JS files collide with the plugin's source leading to errors.
 
 This error can be corrected easily. For assistance in clearing this kind of issues please post it in the [Support forum](/forum/).
 
@@ -43,8 +43,8 @@ A: This issue happens because of the theme's default styling rules. Various acti
 
 A: It varies from theme to theme.
 
--   The default 'Twentytwelve" theme uses `wp_link_pages` function for adding the next and previous links. To remove it open the _themes/twentytwelve/content.php_ and delete the line number **39**.
--   Some themes use the `next_posts_link` and `previous_posts_link` functions to add the links.
--   Please use the support forum for step by step details on removing the links.
+- The default 'Twentytwelve" theme uses `wp_link_pages` function for adding the next and previous links. To remove it open the _themes/twentytwelve/content.php_ and delete the line number **39**.
+- Some themes use the `next_posts_link` and `previous_posts_link` functions to add the links.
+- Please use the support forum for step by step details on removing the links.
 
 For more questions, please use the free [support forum](/forum/) to get immediate action on your issue. You can use screenshots, console texts in the forum for detailed explanation.

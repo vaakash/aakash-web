@@ -17,10 +17,10 @@ Here 600 indicates 10 minutes in seconds. Please note that setting lower value w
 
 A: You can use the `super-rss-reader-widget` class in your stylesheet to control the widget styling. Other classes are,
 
-1.  `srr-tab-wrap` - the tab's class.
-2.  `srr-wrap` - the wrapper of the widget.
-3.  `srr-item.odd` - to control the odd feed items.
-4.  `srr-item.even` - to control the even feed items.
+1. `srr-tab-wrap` - the tab's class.
+2. `srr-wrap` - the wrapper of the widget.
+3. `srr-item.odd` - to control the odd feed items.
+4. `srr-item.even` - to control the even feed items.
 
 ### Q: Does this plugin support horizontal ticker ?
 

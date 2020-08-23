@@ -9,7 +9,7 @@ Custom parameters in Shortcoder provide an ability to change shortcode content w
 
 With custom parameters simple templates can be created and later the parameters can be changed when shortcode is used. Custom parameters cannot have spaces and must be wrapped in `%%` double percentage signs. Example `%%text%%`. This custom parameter can be replaced like below.
 
-    &#91;sc name="my\_shortcode" text="My custom text"&#93;
+    [print_sc sc='{sc name="my_shortcode" text="My custom text"}']
 
 Now all instances of `%%text%%` will be replaced in the shortcode content with "My custom text" and the content will be printed.
 
@@ -29,7 +29,7 @@ Now you should use the parameter **misc1** with your shortcoder syntax.
 
 In post :
 
-    &#91;sc name="myMood" misc1="Happy"&#93;
+    [print_sc sc='{sc name="myMood" misc1="Happy"}']
 
 This will produce the output as
 
@@ -37,47 +37,43 @@ This will produce the output as
 
 or use in post as
 
-    &#91;sc name="myMood" misc1="Sad"&#93;
+    [print_sc sc='{sc name="myMood" misc1="Sad"}']
 
 will give output as
 
-`My mood is Sad`
+    My mood is Sad
 
 ### What happens above ?
 
-In the above example the shortcoder content has a attribute `%%misc1%%` . Now you should use `&#91;sc name="myMood" misc1="Happy"&#93;` in the post. See that the attribute misc1 has been given a value **Happy** within quotes. Now the output will be `My mood is Happy`
+In the above example the shortcoder content has a attribute `%%misc1%%` . Now you should use `[print_sc sc='{sc name="myMood" misc1="Happy"}']` in the post. See that the attribute misc1 has been given a value **Happy** within quotes. Now the output will be `My mood is Happy`
 
 ### #2: Embed YouTube video
 
-Name =
-
-youtubeVideo
+Name = `youtubeVideo`
 
 Content =
 
-<iframe width="%%width%%" height="%%height%%" src="//www.youtube.com/embed/%%id%%" frameborder="0" allowfullscreen></iframe>
+    <iframe width="%%width%%" height="%%height%%" src="//www.youtube.com/embed/%%id%%" frameborder="0" allowfullscreen></iframe>
 
 In Post =
 
-    &#91;sc name="youtubeVideo" width="560" height="340" id="GOfhmzNLWzY" &#93;
+    [print_sc sc='{sc name="youtubeVideo" width="560" height="340" id="GOfhmzNLWzY" }']
 
 Output =
 
 ### #3: a simple donation box
 
-Name =
-
-donateBox
+Name = `donateBox`
 
 Content =
 
-<h3>Make some donation to %%myname%%</h3>  
-<p>If you like <strong>%%myname%%</strong>, just buy me a coffee !!</p>  
-<p>Click this link to donate: <a href="%%link%%">%%mybutton%%</a></p>
+    <h3>Make some donation to %%myname%%</h3>  
+    <p>If you like <strong>%%myname%%</strong>, just buy me a coffee !!</p>  
+    <p>Click this link to donate: <a href="%%link%%">%%mybutton%%</a></p>
 
 In post =
 
-    &#91;sc name="donateBox" myname="Project 1" link="https://www.paypal.com/" mybutton="Donate by PayPal" &#93;
+    [print_sc sc='{sc name="donateBox" myname="Project 1" link="https://www.paypal.com/" mybutton="Donate by PayPal" }']
 
 Output =
 

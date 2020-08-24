@@ -21,13 +21,13 @@ Shortcoder also provides an easy interface to set values for custom parameters i
 
 ## Examples
 
-### #1: Simple
+### 1) Simple
 
 The shortcoder "**myMood**"s content is "**My mood is _%%misc1%%_** ". Here `%%misc1%%` is the custom parameter.
 
 Now you should use the parameter **misc1** with your shortcoder syntax.
 
-In post :
+In post:
 
     [print_sc sc='{sc name="myMood" misc1="Happy"}']
 
@@ -43,42 +43,42 @@ will give output as
 
     My mood is Sad
 
-### What happens above ?
+#### What happens above ?
 
 In the above example the shortcoder content has a attribute `%%misc1%%` . Now you should use `[print_sc sc='{sc name="myMood" misc1="Happy"}']` in the post. See that the attribute misc1 has been given a value **Happy** within quotes. Now the output will be `My mood is Happy`
 
-### #2: Embed YouTube video
+### 2) Embed YouTube video
 
-Name = `youtubeVideo`
+Name: `youtubeVideo`
 
-Content =
+Content:
 
     <iframe width="%%width%%" height="%%height%%" src="//www.youtube.com/embed/%%id%%" frameborder="0" allowfullscreen></iframe>
 
-In Post =
+In Post:
 
     [print_sc sc='{sc name="youtubeVideo" width="560" height="340" id="GOfhmzNLWzY" }']
 
-Output =
+Output HTML:
 
-### #3: a simple donation box
+    <iframe width="560" height="315" src="//www.youtube.com/embed/FCFdgymqpUI" frameborder="0" allowfullscreen></iframe>
 
-Name = `donateBox`
+### 3) a simple donation box
 
-Content =
+Name: `donateBox`
 
-    <h3>Make some donation to %%myname%%</h3>  
-    <p>If you like <strong>%%myname%%</strong>, just buy me a coffee !!</p>  
+Content:
+
+    <h3>Make some donation to %%myname%%</h3>
+    <p>If you like <strong>%%myname%%</strong>, just buy me a coffee !!</p>
     <p>Click this link to donate: <a href="%%link%%">%%mybutton%%</a></p>
 
-In post =
+In post:
 
-    [print_sc sc='{sc name="donateBox" myname="Project 1" link="https://www.paypal.com/" mybutton="Donate by PayPal" }']
+    [print_sc sc='{sc name="donateBox" myname="Project 1" link="https://www.paypal.com/vaakash" mybutton="Donate by PayPal" }']
 
-Output =
+Output HTML:
 
-### Make some donation to Project 1
-
-If you like **Project 1**, just buy me a coffee !!
-
-Click this link to donate: [Donate by PayPal](https://www.paypal.me/vaakash)
+    <h3>Make some donation to Project 1</h3>
+    <p>If you like <strong>Project 1</strong>, just buy me a coffee !!</p>
+    <p>Click this link to donate: <a href="https://www.paypal.com/vaakash">Donate by PayPal</a></p>

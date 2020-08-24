@@ -1,5 +1,6 @@
 ---
 title: FAQ
+menu_order: 5
 taxonomy:
     doc_category: wordpress-plugins
 ---
@@ -20,6 +21,10 @@ No. This plugin won't sync post content. It is a one way update. Only changes ma
 
 Right now Github is only supported.
 
+### Can I use a private Github repository ?
+
+No. Right now only public Github repositories are supported.
+
 ### What all files in the repository will be published ?
 
 All markdown files will be published as posts. HTML is not supported right now, but there are plans to add support in the future.
@@ -37,23 +42,27 @@ Right now files are picked only from the `master` branch and there is no option 
 If a repository has files in the below structure,
 
 ```
-docs\
-    guide\
+docs\\
+    guide\\
         introduction.md
         getting-started.md
-help\
+help\\
     faq.md
 ```
 
 Then below posts will be created like below (if permalinks are configured and the post type supports "hierarchy" i.e creating posts level by level (example: pages))
 
 ```
-https:\\example.com\docs\guide\introduction\
-https:\\example.com\docs\guide\getting-started\
-https:\\example.com\help\faq\
+https:\\\\example.com\\docs\guide\\introduction\\
+https:\\\\example.com\\docs\guide\\getting-started\\
+https:\\\\example.com\\help\\faq\\
 ```
 
 Note that the post's slug will be the name of the file (without extension)
+
+### What will happen if the post type does not support hierarchy ?
+
+If the post type does not support hierarchy then then all posts will be published at the same level. If there files with same name in different directories then there are chances of posts getting overwritten.
 
 ### Can I pull posts from a specific folder in the repository ?
 
@@ -71,7 +80,7 @@ The images will be uploaded only once and they will be reused whenever the post 
 
 Posts within the repository can be linked relatively like `[My test post](/test/references/article.md)` or even using the double dot notation.
 
-### How to set post properties like post title, tags etc
+### How to set post properties like post title, tags, custom fields etc
 
 They can be set at the top the file like below (YAML syntax). This is called front matter.
 
@@ -88,6 +97,9 @@ taxonomy:
     post_tag:
         - tag-1
         - tag-2
+custom_fields:
+    field1: value 1
+    field2: value 2
 ---
 
 ## My post content
@@ -121,6 +133,10 @@ The plugin settings page is accessible only to administrator users. Posts will b
 
 Yes. In that case, webhook configurations cannot be made only manual pull operation will publish the posts and the latest repository changes.
 
+### Can I edit the published post inside WordPress ?
+
+Yes, the post can be edited as needed. But when the source markdown file has changed in the repository then during the next update the manually made changes will be overwritten. Though posts can be edited as needed, tt is preferred to edit the markdown file.
+
 ### Post is not updating automatically when files in the repository are updated
 
 Posts will be updated whenever Github sends an event to your WordPress site that files are added/updated. Please ensure that webhook related settings are set correctly both in the plugin and at the Github repository settings.
@@ -148,3 +164,7 @@ There is an inbuilt shortcode `[g2w_edit_link]` which can be added to the post c
 ### Can we create custom post type using this plugin while configuring the repository ?
 
 No. Custom post types can be created using other plugins like "Custom post type UI" and they can be only selected while configuring the repository.
+
+### Webhook request is seen as timed out in Github webhook history
+
+The webhook request sent by Github expects a reply in 10 seconds else considers th event as timed out. In case of this plugin, it is normal to take more than 10 seconds for creating/updating multiple posts. This time out message can be ignored as the plugin will continue to post in the background. You can see the plugin logs for more information WRT to the webhook delivery.

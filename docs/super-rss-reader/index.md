@@ -1,5 +1,6 @@
 ---
 title: Super RSS Reader
+menu_order: 1
 taxonomy:
     doc_category: wordpress-plugins
 ---

@@ -20,7 +20,7 @@ A: You can use the `super-rss-reader-widget` class in your stylesheet to control
 1. `srr-tab-wrap` - the tab's class.
 2. `srr-wrap` - the wrapper of the widget.
 3. `srr-item.odd` - to control the odd feed items.
-4. `srr-item.even` - to control the even feed items.
+4. `srr-read-more` - to select the "read more" link.
 
 ### Q: Does this plugin support horizontal ticker ?
 

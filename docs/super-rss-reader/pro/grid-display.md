@@ -9,6 +9,8 @@ Grid display is one the display type available in the PRO version of the Super R
 
 This grid display type works well when the feed is displayed in wider content areas like posts/pages using shortcode. In this display type more feed item can be displayed in one row which expands the use case of how RSS feed like displaying the recent posts of your blog below posts/pages or displaying the top comments on your blog using the feed URL.
 
+![Super RSS reader PRO - Grid display of feed items](/_images/srrp-doc-grid.png)
+
 ### Note:
 
 - Grid display works well in wider content areas. On smaller content areas like widget the grid will be cramped since the sidebar is usually small. It is better to use this display type in wider areas.

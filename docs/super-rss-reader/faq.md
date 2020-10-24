@@ -13,6 +13,8 @@ A: Super RSS Reader uses WordPress's default feed reading module. By default Wor
 
 Here 600 indicates 10 minutes in seconds. Please note that setting lower value will increase the load on the server to refresh the RSS cache. You can also refer [this post](https://wordpress.org/support/topic/rss-not-updating-no-matter-which-plugin-i-try/#post-10123881) to change the refresh time for particular feed URL.
 
+Also, please ensure WordPress cache plugins (like W3 total cache, Super cache etc.) are configured to not cache the page where this widget is active or increase the expiry of the cache so that old cached page is not served to the users.
+
 ### Q: RSS feed is not displayed or error is shown
 
 A: This can happen when,
@@ -55,11 +57,11 @@ A: By default content like title, date, author, description, thumbnail can toggl
 
 ### Q: Can I change the order of the content shown in the feed ?
 
-A: Yes, it is possible with the [PRO version](https://www.aakashweb.com/wordpress-plugins/super-rss-reader-pro/) of the plugin. In the free version we can toggle the content.
+A: Yes, it is possible with the [PRO version](/wordpress-plugins/super-rss-reader-pro/?utm_source=docs&utm_medium=faq&utm_campaign=srr-pro) of the plugin. In the free version we can toggle the content.
 
 ### Q: Will the additional ticker effect slow down the site ?
 
-A: No. the additional effect needs only 3.4 Kb of additional file. I think that's not too heavy to slow down the site.
+The additional effect needs only 2.5 KB of additional JavaScript file which is very small since it is minified and optimized already.
 
 ### Q: How to display the feeds in multiple tabs ?
 
@@ -67,7 +69,7 @@ A: Enter the RSS feed URLs separated by comma or in new line in the widget, the 
 
 ### Q: Is it possible to display the RSS feed items in a Grid format ?
 
-A: Yes, it is possible with the [PRO version](https://www.aakashweb.com/wordpress-plugins/super-rss-reader-pro/) of the plugin. In the free version the supported display types are Normal and Ticker.
+A: Yes, it is possible with the [PRO version](/wordpress-plugins/super-rss-reader-pro/?utm_source=docs&utm_medium=faq&utm_campaign=srr-pro) of the plugin. In the free version the supported display types are Normal and Ticker.
 
 ### Q: Does this plugin support horizontal ticker ?
 

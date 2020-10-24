@@ -7,6 +7,10 @@ taxonomy:
 
 __Note:__ Super RSS Reader PRO is a standalone plugin and it includes more features than the Super RSS Reader free version. The documentation of the free version still applies to it. Below FAQ is specific to the PRO version features. You can find the FAQ of the free version [here](../faq.md)
 
+### Q: Is Super RSS reader PRO is a feed aggregation plugin ?
+
+A: No, super RSS Reader is not a feed aggregation plugin i.e it won't create new posts. It will display the RSS feed in widgets and in posts using shortcodes.
+
 ### Q: How many columns are supported in the grid layout ?
 
 The plugin supports 2, 3 and 4 columns in the grid layout.

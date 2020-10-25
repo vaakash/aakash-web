@@ -1,6 +1,6 @@
 ---
-title: Super RSS Reader - PRO (Docs)
-menu_order: 
+title: PRO
+menu_order: 4
 taxonomy:
     doc_category: wordpress-plugins
 ---

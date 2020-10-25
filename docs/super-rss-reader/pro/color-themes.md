@@ -1,11 +1,11 @@
 ---
 title: Color themes
-menu_order: 6
+menu_order: 5
 taxonomy:
     doc_category: wordpress-plugins
 ---
 
-Super RSS reader PRO has 4 new color themes apart with the free version themes. Note, below screenshots may not be up to date with the latest enhancements. Please visit the [live demo](/demos/super-rss-reader-pro/) to look at the live results.
+Super RSS reader PRO has 4 new color themes apart with the free version themes. Note, below screenshots may not be up to date with the latest enhancements. Please visit the [live demo](https://wpdemos.aakashweb.com/super-rss-reader-pro/?utm_source=docs&utm_medium=color-themes&utm_campaign=srr-pro) to look at the live results.
 
 ## Twitter
 

@@ -10,17 +10,15 @@ You can read the same Google news in your own RSS reader, display it in your [Wo
 
 You can get Google news RSS feed URL for top stories, by topic, geo location and even by language. Follow this article below to find the feed URL as needed.
 
-## Getting the Google News RSS feed URL {#google-news-rss-feed}
-
-### For top stories
+## For top stories
 
 The RSS feed for top stories is the simplest one. Just append `RSS` to the `https://news.google.com` and you get the RSS feed of the top stories of your location.
 
     https://news.google.com/rss
 
-### By topic
+## By topic
 
-![Google news rss feed by topic](/_images/google-news-rss-feed-1.png)
+![Google news rss feed by topic](/_images/google-news-rss-feed-1.png) {.wp-post-image}
 
 To get the RSS feed by topic, simply visit the topic you want i.e Business, Sports, Technology like below and append `\rss` next to `news.google.com`. The resultant URL is the RSS feed of that topic.
 
@@ -38,7 +36,7 @@ __RSS URL__
 
     https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pKVGlnQVAB
 
-### By section under a topic
+## By section under a topic
 
 Similar to getting the RSS feed of a topic, the same technique can be applies to get the RSS feed URL of the particular section of a topic.
 
@@ -50,7 +48,7 @@ __Example__
 
     https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtVnVHZ0pKVGlnQVAB/sections/CAQiSkNCQVNNUW9JTDIwdk1EWnVkR29TQldWdUxVZENHZ0pKVGlJT0NBUWFDZ29JTDIwdk1EZGljekFxQ2dvSUVnWlVaVzV1YVhNb0FBKi4IACoqCAoiJENCQVNGUW9JTDIwdk1EWnVkR29TQldWdUxVZENHZ0pKVGlnQVABUAE?hl=en-IN&gl=IN&ceid=IN%3Aen
 
-### By custom search keyword
+## By custom search keyword
 
 In case you want to read RSS feed which has particular keyword then you can use below format
 
@@ -60,9 +58,7 @@ Here, replace `keyword` with the keyword you want the RSS feed for. For example 
 
     https://news.google.com/rss/search?q=instagram
 
-### By country and by language
-
-![Google news rss feed by language or country](/_images/google-news-rss-feed-2.jpg)
+## By country and language
 
 You might have noticed that Google appends additional URL parameters like `hl`, `gl` and `ceid` to the google news URL. These are the parameters which decide the language, geo location the display the news for.
 

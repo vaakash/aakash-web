@@ -1,6 +1,6 @@
 ---
 title: Visitor conditions
-menu_order: 2
+menu_order: 4
 taxonomy:
     doc_category: wordpress-plugins
 ---
@@ -49,7 +49,13 @@ Target users by the type of operating system used.
 
 Target users by the type of device used. i.e mobile (or) desktop
 
-### 7) Custom function
+### 7) User logged in status
+
+Target users by whether they are logged in or logged out. If you want to show/hide the announcement based on used logged in status then you can add this rule.
+
+**Example:** `User logged in status` - `is` - `logged in` will target users who are logged in.
+
+### 8) Custom function
 
 Target users who meet your own custom JavaScript function. The custom JavaScript function should return `true` or `false` after evaluating your own custom logic.
 

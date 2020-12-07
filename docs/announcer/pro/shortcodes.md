@@ -1,6 +1,6 @@
 ---
 title: Shortcodes
-menu_order: 3
+menu_order: 5
 taxonomy:
     doc_category: wordpress-plugins
 ---
@@ -15,7 +15,9 @@ In case you want to insert the same announcement inside a post/page then you can
 
 **Note:**
 
-When using shortcodes the properties of the announcement cannot be modified or new announcement cannot be created. The announcement shortcode is used to insert an already created announcement using the admin page anywhere.
+* When using shortcodes the properties of the announcement cannot be modified or new announcement cannot be created. The announcement shortcode is used to insert an already created announcement using the admin page anywhere.
+
+* When you want to use an announcement only using shortcode, then you can set **Location rules** > **Hide in all pages**. Now you can use the shortcode anywhere as needed without it being automatically displayed.
 
 ## Syntax
 

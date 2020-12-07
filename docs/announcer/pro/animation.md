@@ -1,6 +1,6 @@
 ---
 title: Animation
-menu_order: 1
+menu_order: 2
 taxonomy:
     doc_category: wordpress-plugins
 ---
@@ -44,9 +44,9 @@ Along with this animation you can also set below options to fine tune how the an
 
 * Animation start for the buttons only after the announcement is displayed.
 
-* Animations work in all browsers.
+* Animations will work in all modern browsers.
 
-* Animations work in mobile devices also.
+* Animations work in mobile devices too.
 
 ## Setting animation/transition effects for "on show" and "on close" of announcement
 

@@ -30,4 +30,4 @@ The countdown timer has below CSS classes which you can use for making custom st
 * `.ancrcd-item > em` - To target the text display below the number
 * `ancrcd-sep` - The separator
 
-[sc name="doc-bottom-get-pro" link="/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=countdown&utm_campaign=ancr-pro#purchase"]
+[sc name="doc-bottom-get-pro" link="https://www.aakashweb.com/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=countdown&utm_campaign=ancr-pro#purchase"]

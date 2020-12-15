@@ -39,4 +39,4 @@ A: Yes, both date and timer can be selected in the countdown timer. The date and
 
 A: Yes, there is full control to set any text as needed. You can even hide the text or change it's position. See [countdown timer](./countdown-timer.md) page for the options provided.
 
-[sc name="doc-bottom-get-pro" link="/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=faq&utm_campaign=ancr-pro#purchase"]
+[sc name="doc-bottom-get-pro" link="https://www.aakashweb.com/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=faq&utm_campaign=ancr-pro#purchase"]

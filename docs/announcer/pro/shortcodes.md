@@ -45,4 +45,4 @@ The announcement has a special CSS class name assigned when inserted using short
 
 You can use this to apply custom styling, padding, margin using CSS as needed.
 
-[sc name="doc-bottom-get-pro" link="/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=shortcodes&utm_campaign=ancr-pro#purchase"]
+[sc name="doc-bottom-get-pro" link="https://www.aakashweb.com/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=shortcodes&utm_campaign=ancr-pro#purchase"]

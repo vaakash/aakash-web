@@ -21,3 +21,5 @@ taxonomy:
 * New in Pro: Visitor conditions feature to target users.
 * New in Pro: Shortcode support.
 * New in Pro: Countdown timer.
+
+[sc name="doc-bottom-get-pro" link="/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=bottom&utm_campaign=ancr-pro#purchase"]

@@ -40,3 +40,5 @@ Installing [Announcer - PRO](/wordpress-plugins/announcer-pro/) is just like any
 - Copy and paste the license key into the "License key" field. You can get the license key from the order receipt email or from the [my account](/my-account/) page if you have selected to create an account while ordering.
 
 Once activated the plugin will continue to receive automatic updates for 1 year. If there are any issue with obtaining your license key or activating the license please [contact](/contact/) with your order ID.
+
+[sc name="doc-bottom-get-pro" link="/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=installation&utm_campaign=ancr-pro#purchase"]

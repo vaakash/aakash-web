@@ -59,3 +59,5 @@ The PRO version of the plugin includes below effects which you can choose from.
 * Back
 * Bounce
 * Zoom
+
+[sc name="doc-bottom-get-pro" link="/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=animation&utm_campaign=ancr-pro#purchase"]

@@ -44,3 +44,5 @@ The shortcode can be found in two locations in the admin page.
 The announcement has a special CSS class name assigned when inserted using shortcode. The class name is `ancr-shortcode`.
 
 You can use this to apply custom styling, padding, margin using CSS as needed.
+
+[sc name="doc-bottom-get-pro" link="/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=shortcodes&utm_campaign=ancr-pro#purchase"]

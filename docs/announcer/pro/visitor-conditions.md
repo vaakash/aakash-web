@@ -55,7 +55,13 @@ Target users by whether they are logged in or logged out. If you want to show/hi
 
 **Example:** `User logged in status` - `is` - `logged in` will target users who are logged in.
 
-### 8) Custom function
+### 8) User role
+
+Target users on the user role assigned to them. This works only when the user is logged in. You can use this to show/hide announcements based on their role.
+
+**Example:** `User role` - `is` - `subscriber` will target users with the role subscriber. If you want to target multiple roles then please add a new rule group for each.
+
+### 9) Custom function
 
 Target users who meet your own custom JavaScript function. The custom JavaScript function should return `true` or `false` after evaluating your own custom logic.
 
@@ -97,3 +103,5 @@ In the image below, the announcement will be shown when either of these meet
 With location rules you define the rules on which posts and pages you need to insert the announcement.
 
 Visitor conditions is an additional check which further checks various user properties like referrer, browser etc. as mentioned above.
+
+[sc name="doc-bottom-get-pro" link="/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=visitor-conditions&utm_campaign=ancr-pro#purchase"]

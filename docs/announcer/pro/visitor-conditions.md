@@ -104,4 +104,8 @@ With location rules you define the rules on which posts and pages you need to in
 
 Visitor conditions is an additional check which further checks various user properties like referrer, browser etc. as mentioned above.
 
-[sc name="doc-bottom-get-pro" link="https://www.aakashweb.com/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=visitor-conditions&utm_campaign=ancr-pro#purchase"]
+### Haven't got the plugin yet ?
+
+If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
+
+[Get PRO version](https://www.aakashweb.com/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=visitor-conditions&utm_campaign=ancr-pro#purchase) {.button}

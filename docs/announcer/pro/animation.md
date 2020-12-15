@@ -60,4 +60,8 @@ The PRO version of the plugin includes below effects which you can choose from.
 * Bounce
 * Zoom
 
-[sc name="doc-bottom-get-pro" link="https://www.aakashweb.com/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=animation&utm_campaign=ancr-pro#purchase"]
+### Haven't got the plugin yet ?
+
+If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
+
+[Get PRO version](https://www.aakashweb.com/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=animation&utm_campaign=ancr-pro#purchase) {.button}

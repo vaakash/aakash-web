@@ -22,4 +22,8 @@ taxonomy:
 * New in Pro: Shortcode support.
 * New in Pro: Countdown timer.
 
-[sc name="doc-bottom-get-pro" link="https://www.aakashweb.com/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=bottom&utm_campaign=ancr-pro#purchase"]
+### Haven't got the plugin yet ?
+
+If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
+
+[Get PRO version](/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=changelog&utm_campaign=ancr-pro#purchase) {.button}

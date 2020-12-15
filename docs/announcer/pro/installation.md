@@ -41,4 +41,8 @@ Installing [Announcer - PRO](/wordpress-plugins/announcer-pro/) is just like any
 
 Once activated the plugin will continue to receive automatic updates for 1 year. If there are any issue with obtaining your license key or activating the license please [contact](/contact/) with your order ID.
 
-[sc name="doc-bottom-get-pro" link="https://www.aakashweb.com/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=installation&utm_campaign=ancr-pro#purchase"]
+### Haven't got the plugin yet ?
+
+If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
+
+[Get PRO version](https://www.aakashweb.com/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=installation&utm_campaign=ancr-pro#purchase) {.button}

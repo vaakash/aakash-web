@@ -14,7 +14,7 @@ Below are install instructions for the free version of the [Super RSS Reader](/w
 
 ## Install via FTP
 
-- Download and upload the latest version of Super RSS Reader.
+- Download and upload the latest version of Super RSS Reader from [here](https://wordpress.org/plugins/super-rss-reader/).
 - Unzip & upload it to your WordPress site.
 - Activate the plugin.
 - Drag and drop the "Super RSS Reader" widget in the "Widgets" page.

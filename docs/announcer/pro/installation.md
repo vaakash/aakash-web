@@ -17,6 +17,8 @@ The downloaded file will be a `.zip` file. If incase it is not a `zip` file plea
 
 Announcer - PRO is a complete plugin and not an addon to Announcer free version. Hence please __deactivate__ the free version of the plugin before installing the PRO version of the plugin.
 
+**Note:** Deactivating the plugin will not delete your existing settings.
+
 ## Installation
 
 Installing [Announcer - PRO](/wordpress-plugins/announcer-pro/) is just like any other WordPress plugin.

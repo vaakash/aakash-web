@@ -5,21 +5,29 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
-### Q: How to show the popup in home/pages ?
+### Q: Can I add multiple floating widgets in a single page ?
 
-In the widget box edit page, navigate to the "Location rules" tab. You can find two levels of configuration. Select "Basic" and select the options "hide in home page" and "pages". You can create complex rules more advanced than this using the "advanced" level of configuration which is available in the [PRO version](/wordpress-plugins/ultimate-floating-widgets-pro/).
+Yes ! You can create multiple widget boxes and add your widgets to it and they will all be available in a single page with separate buttons to open each.
+
+### Q: Can I show the widget box in the center of the page ?
+
+No, that is not possible. Right now the widget boxes can be placed near the corners or to the sides of the window. You could use custom CSS (with flyout mode) to achieve the same but support for that would be beyond the scope of the plugin.
+
+### Q: Does it work in all themes ?
+
+Yes. The floating widgets use the same structure/style as used by your theme. So if your theme sidebar is made as a floating popup.
 
 ### Q: Are widget boxes mobile responsive ?
 
 Yes, widget boxes are responsive to small screens. Even if you provide a larger width/height for the widget box when the screen size is less than 600px then widget box will automatically switch to full screen mode.
 
+### Q: How to show the popup in home/pages ?
+
+In the widget box edit page, navigate to the "Location rules" tab. You can find two levels of configuration. Select "Basic" and select the options "hide in home page" and "pages". You can create complex rules more advanced than this using the "advanced" level of configuration which is available in the [PRO version](/wordpress-plugins/ultimate-floating-widgets-pro/).
+
 ### Q: Can I open the widget box via custom link ?
 
 Yes, it is possible. Please check [this page](./custom-trigger.md) for more details
-
-### Q: Can I show the widget box in the center of the page ?
-
-No, that is not possible. Right now the widget boxes can be placed near the corners or to the sides of the window. You could use custom CSS (with flyout mode) to achieve the same but support for that would be beyond the scope of the plugin.
 
 ### Q: How to hide the widget on mobile devices ?
 

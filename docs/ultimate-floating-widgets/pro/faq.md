@@ -1,5 +1,5 @@
 ---
-title: Changelog
+title: FAQ
 menu_order: 5
 taxonomy:
     doc_category: wordpress-plugins

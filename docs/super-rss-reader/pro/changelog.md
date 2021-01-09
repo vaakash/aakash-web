@@ -5,6 +5,10 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 4.0.1
+* Fix: Added hover style for the tabs and on active style when no theme is selected.
+* New: Tested with WordPress 5.6
+
 ### 4.0
 
 * New: Reliable thumbnails. Thumbnails will now be taken from multiple places like feed content.

@@ -5,6 +5,17 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 5.1
+
+* New: Announcement can be scheduled with time.
+* New: Timezone can be selected for scheduling the announcement.
+* New: A mini editor is included to add HTML to announcement message.
+* New: Option to order announcement when they are stacked.
+* Fix: Preview not working.
+* Fix: Announcement message with slashes was not working in preview.
+* Fix: Close icon now has a text on hover.
+* Fix: Announcement reopens when display on page scroll is selected.
+
 ### 5.0
 
 * New: Preview announcements before publishing.

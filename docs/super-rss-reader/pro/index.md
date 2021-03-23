@@ -1,6 +1,6 @@
 ---
 title: PRO
-menu_order: 4
+menu_order: 5
 taxonomy:
     doc_category: wordpress-plugins
 ---

@@ -5,6 +5,12 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 4.1
+* New: Option to change date format
+* New: Date will now be in the same language as the site.
+* New: Option to set default thumbnail image if not present.
+* New: Filter hook to customize the feed item's HTML.
+
 ### 4.0.1
 * Fix: Added hover style for the tabs and on active style when no theme is selected.
 * New: Tested with WordPress 5.6

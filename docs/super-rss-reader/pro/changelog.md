@@ -5,6 +5,10 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 4.2
+* Fix: Ticker sometimes gets stuck when browser tab is switched or not viewed.
+* New: Featured image is automatically inserted into local RSS feed to show as thumbnail if the post has no image in it.
+
 ### 4.1
 * New: Option to change date format
 * New: Date will now be in the same language as the site.

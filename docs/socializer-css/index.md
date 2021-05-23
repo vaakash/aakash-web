@@ -219,11 +219,11 @@ taxonomy:
 <script type="text/javascript">
 <!--
 window.addEventListener("load", function (){
-	$.get( 'https://cdn.rawgit.com/vaakash/socializer/master/misc/api.json', function(data){
-		$.each( data['sites'], function(name, prop){
-			$( '#scrSitesList' ).append( '<li>' + name + '</li>' );
-		});
-	});
+    $.get( 'https://cdn.rawgit.com/vaakash/socializer/master/misc/api.json', function(data){
+        $.each( data['sites'], function(name, prop){
+            $( '#scrSitesList' ).append( '<span><i class="' + prop[1] + '" style="color: ' + prop[3] + '"></i> ' + name + '</span>' );
+        });
+    });
 });
 //--></script>
 

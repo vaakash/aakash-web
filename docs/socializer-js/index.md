@@ -52,13 +52,13 @@ data-more="pocket,digg,flickr" &gt;&lt;/div&gt;
 
 <dl>
     <dt><code>data-features</code></dt>
-    <dd>This attribute holds all the CSS classes separated by comma and defines the appearance of the social buttons. List of all CSS classes can be referred in <a href="/docs/socializer-css-docs/#sharebar-css-classes">this page</a>.</dd>
+    <dd>This attribute holds all the CSS classes separated by comma and defines the appearance of the social buttons. List of all CSS classes can be referred in <a href="/docs/socializer-css/#sharebar-css-classes">this page</a>.</dd>
     
     <dt><code>data-sites</code></dt>
-    <dd>This attribute holds the list of social media buttons to be generated. List of all supported social media sites can be seen in <a href="/docs/socializer-css-docs/#color-schemes">this page</a>.</dd>
+    <dd>This attribute holds the list of social media buttons to be generated. List of all supported social media sites can be seen in <a href="/docs/socializer-css/#color-schemes">this page</a>.</dd>
     
     <dt><code>data-text</code></dt>
-    <dd>The attribute holds the text style for the buttons. If it is empty no texts will be shown. List of all CSS classes can be referred in <a href="/docs/socializer-css-docs/#sharebar-css-classes">this page</a> (optional)</dd>
+    <dd>The attribute holds the text style for the buttons. If it is empty no texts will be shown. List of all CSS classes can be referred in <a href="/docs/socializer-css/#sharebar-css-classes">this page</a> (optional)</dd>
     
     <dt><code>data-meta-link</code></dt>
     <dd>The URL to be shared is provided here (optional: When this is empty, the current page URL is used automatically)</dd>
@@ -67,7 +67,7 @@ data-more="pocket,digg,flickr" &gt;&lt;/div&gt;
     <dd>The title of the page to be shared is provided here (optional: When this is empty, the current page title is used automatically). Similarly there are other properties like <code>data-meta-twitterusername</code>, <code>data-meta-image</code>, <code>data-meta-rss</code> which can be used to change the respective properties.</dd>
     
     <dt><code>data-meta-{social_site_id}</code></dt>
-    <dd>Attributes of this kind can be used to give custom URL to the specific social button. If placeholders like <code>{url}</code>, <code>{title}</code> are present in the URL, they will be replaced with the page's URL and title respectively. List of all supported social media site ID can be referred in <a href="/docs/socializer-css-docs/#color-schemes">this page</a>.(optional)</dd>
+    <dd>Attributes of this kind can be used to give custom URL to the specific social button. If placeholders like <code>{url}</code>, <code>{title}</code> are present in the URL, they will be replaced with the page's URL and title respectively. List of all supported social media site ID can be referred in <a href="/docs/socializer-css/#color-schemes">this page</a>.(optional)</dd>
     
     <dt><code>data-meta-more</code></dt>
     <dd>Social media site IDs mentioned in this page are moved to a more menu. Make sure that the <code>data-sites</code> has a <code>more</code> ID present in the list. (optional: When this is empty, the current page title is used automatically)</dd>

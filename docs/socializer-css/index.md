@@ -214,7 +214,7 @@ taxonomy:
 </pre>
 
 <h2 id="color-schemes">Available social buttons with color schemes</h2>
-<ul id="scrSitesList"></ul>
+<p id="scrSitesList" class="grid gsize5"></p>
 
 <script type="text/javascript">
 <!--

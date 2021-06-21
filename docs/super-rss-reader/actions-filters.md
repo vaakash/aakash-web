@@ -34,17 +34,48 @@ This filter allows to tweak the feed item's HTML before it is displayed. It supp
     * `before` - HTML to display before the feed item.
     * `after` - HTML to display after the feed item.
 * `$feed_url` __(string)__ - The feed URL which is under process.
-* `$feed_item` __(Simplepie_Item)__ - The current feed item's [Simplepie_item](http://simplepie.org/wiki/reference/simplepie_item/start) object.
+* `$feed_item` __(SimplePie_Item)__ - The current feed item's [SimplePie_item](http://simplepie.org/wiki/reference/simplepie_item/start) object.
 
 #### Example
 
     <?php
         add_filter( 'srr_mod_item_html', 'my_srr_modifier', 10, 3 );
 
+        // This example modifies the title tag and appends a text to it.
+
         function my_srr_modifier( $html, $feed_url, $feed_item ){
-            // This example modifies the title tag and appends a text to it.
             $html[ 'title' ] = $html[ 'title' ] . ' extra text';
             return $html;
+        }
+    ?>
+
+### `srr_mod_thumbnail_url`
+
+This filter allows to change the feed item's thumbnail URL.
+
+#### Parameters
+
+    apply_filters( 'srr_mod_thumbnail_url', $thumbnail_url, $item, $feed, $default_url );
+
+* `$thumbnail_url` __(string)__ - The thumbnail URL retrieved from the feed.
+* `$item` __(SimplePie_Item)__ - The current feed item's [SimplePie_item](http://simplepie.org/wiki/reference/simplepie_item/start) object.
+* `$feed` __(SimplePie)__ - The feed's [SimplePie](http://simplepie.org/api/class-SimplePie.html) object.
+* `$default_url` __(string)__ - The default thumbnail URL as mentioned in settings.
+
+#### Example
+
+    <?php
+        add_filter( 'srr_mod_thumbnail_url', 'srr_change_thumbnail_url', 10, 4 );
+
+        // This example sets the feed's top level image as the thumbnail for all items. If not present then sets the default thumbnail URL.
+
+        function srr_change_thumbnail_url( $thumbnail_url, $item, $feed, $default_url ){
+            $feed_level_image = $feed->get_image_url();
+            if( !empty( $feed_level_image ) ){
+                return $feed_level_image;
+            }else{
+                return $default_url;
+            }
         }
     ?>
 

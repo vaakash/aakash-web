@@ -5,6 +5,10 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 4.3
+* New: Option to order/sort feed items by date, random.
+* New: Filter hook to customize thumbnail URL.
+
 ### 4.2
 * Fix: Ticker sometimes gets stuck when browser tab is switched or not viewed.
 * New: Featured image is automatically inserted into local RSS feed to show as thumbnail if the post has no image in it.

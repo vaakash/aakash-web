@@ -9,6 +9,8 @@ With "Visitor conditions" feature in Ultimate floating widgets WordPress plugin,
 
 You can build your own rules easily within the settings page and make sure only certain users see the widget box.
 
+**Note:** Rules "Number of times an user has logged in" and "Number of times an user has visited the site" set cookies in the user's browser to track the information. You can consider this information to be included in your cookie policy if needed. These cookies are used only by announcer plugin to evaluate the rule and not used for any other purposes.
+
 ## List of supported visitor conditions
 
 ### 1) Referrer
@@ -76,6 +78,28 @@ Use this to write your own rules in case above rules are not satisfied or if you
     }
 
 You can then set the function name as value to the rule like `Custom function` - `is` - `ufw_small_screen`
+
+### 10) URL
+
+Target users based on the text in the URL. Multiple operators like `contains`, `regex` and more are supported by this rule.
+
+**Example:** `URL` - `contains` - `hello` will target users when the page URL has the word `hello`
+
+### 11) Number of times an user has logged in
+
+Target users based on the number of times they have logged in. This is tracked by placing a cookie in the user's browser and increasing it whenever they login. When there is no cookie, the user is considered to have no logins. This cookie expires in 1 year.
+
+Multiple operators like `greater_than`, `lesser_than` and `equal_to` are supported by this rule.
+
+**Example:** `No. of times an user logged in is` - `greater_than` - `10` will target users who has logged in to the website more than 10 times.
+
+### 12) Number of times an user has visited the site
+
+Target users based on the number of time they have viewed the site. This is tracked by placing a cookie in the user's browser and increasing it every 1 hour whenever they visit the site. This information is recorded for the entire site and not for an individual page. When there is no cookie, the user is considered to have no visits. This cookie expires in 1 year.
+
+Multiple operators like `greater_than`, `lesser_than` and `equal_to` are supported by this rule.
+
+**Example:** `No. of times an user viewed site is` - `lesser_than` - `5` will target users who has visited the site less than 5 times.
 
 ## Building multiple rules
 

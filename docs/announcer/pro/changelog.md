@@ -5,6 +5,19 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 5.2
+
+* PRO: Visitor conditions - To match URL with a text.
+* PRO: Visitor conditions - Based on no. of times an user has visited the site.
+* PRO: Visitor conditions - Based on no. of times an user has logged in.
+* New: "Custom" display option to open the announcement as needed using JS API.
+* New: New option to add extra padding to the announcement bar.
+* Fix: Apostrophe not saved when button text is CTA.
+* Fix: jQuery exception when trying to add padding when admin bar is shown.
+* Fix: Disable autocomplete for the schedule date picker.
+* Fix: "Terms of post" criteria was not checking the post type.
+* Fix: Minor enhancements to admin settings field.
+
 ### 5.1
 
 * New: Announcement can be scheduled with time.

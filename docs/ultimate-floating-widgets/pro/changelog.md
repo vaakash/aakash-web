@@ -5,6 +5,19 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 2.1
+
+* PRO: Option to close widget box when clicked outside the popup/flyout.
+* PRO: Visitor conditions - To match URL with a text.
+* PRO: Visitor conditions - Based on no. of times an user has visited the site.
+* PRO: Visitor conditions - Based on no. of times an user has logged in.
+* New: Dedicated close button for the widget box.
+* New: Option to automatically close widget box after some time.
+* New: Enhancements to fields in admin settings.
+* New: Widget box does not open automatically when it is closed manually.
+* Fix: Support for WordPress 5.8
+* Fix: "Terms of post" criteria was not checking the post type.
+
 ### 2.0
 
 * New: Updated widget box shadow.
@@ -25,4 +38,4 @@ taxonomy:
 
 If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
 
-[Get PRO version](/wordpress-plugins/ultimate-floating-widgets-pro/?utm_source=doc&utm_medium=changelog&utm_campaign=ufw-pro#purchase) {.button}
+[Get PRO version](/wordpress-plugins/ultimate-floating-widgets/?utm_source=doc&utm_medium=changelog&utm_campaign=ufw-pro#purchase) {.button}

@@ -25,4 +25,4 @@ Widgets can now be added to the columns as required.
 
 If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
 
-[Get PRO version](/wordpress-plugins/ultimate-floating-widgets-pro/?utm_source=doc&utm_medium=multiple-columns&utm_campaign=ufw-pro#purchase) {.button}
+[Get PRO version](/wordpress-plugins/ultimate-floating-widgets/?utm_source=doc&utm_medium=multiple-columns&utm_campaign=ufw-pro#purchase) {.button}

@@ -5,9 +5,9 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
-Ultimate floating widgets - PRO provides "advanced" location rules configuration with which you can create custom complex rules to insert the widget box as required.
+WP Socializer provides location rules feature with which you can create custom rules to conditionally display features like Share icons, Floating sharebar, follow icons and text sharebar.
 
-![Location rule settings in Ultimate floating widgets PRO WordPress plugin](/_images/ufwp-location-rules.png) {.wp-post-image}
+![Location rule settings in WP Socializer WordPress plugin](/_images/wpsr-doc-location-rules.png) {.wp-post-image}
 
 Before rules can be built there are below options which decides how the rules should act.
 
@@ -37,7 +37,7 @@ You can create rules with conditions for the following pages,
 
 Every rule has an operator `is/is not` which can be used to negate the rule itself.
 
-For example, a rule like `Single post` - `is not` - `1234` under "show in selected pages" will show the widget box in all the posts except post with ID `1234`.
+For example, a rule like `Single post` - `is not` - `1234` under "show in selected pages" will show the feature in all the posts except post with ID `1234`.
 
 For every rule, multiple sub rule can be added to further narrow down. For example, a rule like `Single post` - `is` - `<blank>` with sub rules like `Categories of post` - `is` - `blog` and `Tags of post` - `is` - `announcement` under "Show in selected pages" will display only in "posts" of "blog" category with the tag "announcement".
 
@@ -45,4 +45,4 @@ For every rule, multiple sub rule can be added to further narrow down. For examp
 
 If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
 
-[Get PRO version](/wordpress-plugins/ultimate-floating-widgets/?utm_source=doc&utm_medium=location-rules&utm_campaign=ufw-pro#purchase) {.button}
+[Get WP Socializer](/wordpress-plugins/wp-socializer/) {.button}

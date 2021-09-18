@@ -31,4 +31,4 @@ No. Currently as of v2.0 there is no option to adjust the idle button animation 
 
 If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
 
-[Get PRO version](/wordpress-plugins/ultimate-floating-widgets-pro/?utm_source=doc&utm_medium=faq&utm_campaign=ufw-pro#purchase) {.button}
+[Get PRO version](/wordpress-plugins/ultimate-floating-widgets/?utm_source=doc&utm_medium=faq&utm_campaign=ufw-pro#purchase) {.button}

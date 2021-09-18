@@ -23,7 +23,7 @@ Yes, widget boxes are responsive to small screens. Even if you provide a larger 
 
 ### Q: How to show the popup in home/pages ?
 
-In the widget box edit page, navigate to the "Location rules" tab. You can find two levels of configuration. Select "Basic" and select the options "hide in home page" and "pages". You can create complex rules more advanced than this using the "advanced" level of configuration which is available in the [PRO version](/wordpress-plugins/ultimate-floating-widgets-pro/).
+In the widget box edit page, navigate to the "Location rules" tab. You can find two levels of configuration. Select "Basic" and select the options "hide in home page" and "pages". You can create complex rules more advanced than this using the "advanced" level of configuration which is available in the [PRO version](/wordpress-plugins/ultimate-floating-widgets/).
 
 ### Q: Can I open the widget box via custom link ?
 
@@ -70,4 +70,4 @@ You can select the widget box type as "flyout" and set the width of the widget b
 
 ### Q: Is it possible to have multiple columns of widgets in the widget box ?
 
-Yes, with the [PRO version](/wordpress-plugins/ultimate-floating-widgets-pro/) of the plugin a maximum of 4 columns can be added to the widget. In the free version you can add widgets in 1 column.
+Yes, with the [PRO version](/wordpress-plugins/ultimate-floating-widgets/) of the plugin a maximum of 4 columns can be added to the widget. In the free version you can add widgets in 1 column.

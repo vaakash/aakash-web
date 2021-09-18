@@ -21,7 +21,7 @@ Ultimate floating widgets - PRO is a complete plugin and not an addon to Ultimat
 
 ## Installation
 
-Installing [Ultimate floating widgets - PRO](/wordpress-plugins/ultimate-floating-widgets-pro/) is just like any other WordPress plugin.
+Installing [Ultimate floating widgets - PRO](/wordpress-plugins/ultimate-floating-widgets/) is just like any other WordPress plugin.
 
 ### Install via admin page:
 
@@ -47,4 +47,4 @@ Once activated the plugin will continue to receive automatic updates for 1 year.
 
 If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
 
-[Get PRO version](/wordpress-plugins/ultimate-floating-widgets-pro/?utm_source=doc&utm_medium=installation&utm_campaign=ufw-pro#purchase) {.button}
+[Get PRO version](/wordpress-plugins/ultimate-floating-widgets/?utm_source=doc&utm_medium=installation&utm_campaign=ufw-pro#purchase) {.button}

@@ -1,6 +1,6 @@
 ---
 title: Shortcodes
-menu_order: 3
+menu_order: 7
 taxonomy:
     doc_category: wordpress-plugins
 ---

@@ -1,6 +1,6 @@
 ---
 title: Installation
-menu_order: 2
+menu_order: 1
 taxonomy:
     doc_category: wordpress-plugins
 ---

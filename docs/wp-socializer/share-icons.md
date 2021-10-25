@@ -1,6 +1,6 @@
 ---
 title: Share Icons
-menu_order: 2
+menu_order: 3
 taxonomy:
     doc_category: wordpress-plugins
 ---

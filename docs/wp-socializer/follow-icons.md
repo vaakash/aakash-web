@@ -1,6 +1,6 @@
 ---
 title: Follow icons
-menu_order: 2
+menu_order: 5
 taxonomy:
     doc_category: wordpress-plugins
 ---

@@ -1,6 +1,6 @@
 ---
 title: Widgets
-menu_order: 2
+menu_order: 8
 taxonomy:
     doc_category: wordpress-plugins
 ---

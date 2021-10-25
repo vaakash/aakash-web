@@ -80,3 +80,9 @@ You can change the sharing text, title, excerpt and tweet text in the [PRO versi
 ### How to track shares with Google Analytics & Google Tag Manager ?
 
 In the [PRO version](/wordpress-plugins/wp-socializer/) of the plugin, you can enable Google Analytics feature. Once enabled, shares will be tracked in Google Analytics.
+
+## Haven't got the plugin yet ?
+
+If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
+
+[Get PRO version](/wordpress-plugins/wp-socializer/) {.button}

@@ -136,3 +136,9 @@ If you are using Google Tag manager then you can configure Google Tag manager to
         - Event parameters = Add row
             - Parameter Name = `event_category`, Value = `{{Social Network}}`
             - Parameter Name = `event_label`, Value = `{{Social Target}}`
+
+## Haven't got the plugin yet ?
+
+If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
+
+[Get PRO version](/wordpress-plugins/wp-socializer/) {.button}

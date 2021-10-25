@@ -29,3 +29,9 @@ To add custom icons download and [install WP Socializer - PRO](./installation.md
 - Bit.ly is used as a replacement for the default WordPress short URL. If you want to share only with bit.ly URL then you can enable the option _Use Short URL to share this post instead of full URL_ under _WP Socializer_ in post edit page for specific post as required.
 
 - Bit.ly has rate limit of 10 URL shortens per minute and 1000 URL shortens per hour. WP Socializer will shorten the URL when the page is loaded by any user. It will be save to the post once generated. So once URL is shortened there is no issue. If rate limit has been reached, then WP Socializer will show the normal short URL meantime for 1 hour. After 1 hour the bit.ly call will be attempted again to shorten the URL.
+
+## Haven't got the plugin yet ?
+
+If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
+
+[Get PRO version](/wordpress-plugins/wp-socializer/) {.button}

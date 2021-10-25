@@ -40,3 +40,8 @@ To add custom icons download and [install WP Socializer - PRO](./installation.md
 
 To edit a custom icon, click _Edit_ next to the custom icon name to open the editing form. To delete a custom icon, click _Delete_ next to the custom icon name.
 
+## Haven't got the plugin yet ?
+
+If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
+
+[Get PRO version](/wordpress-plugins/wp-socializer/) {.button}

@@ -37,3 +37,9 @@ Below settings can be changed,
 - _Excerpt_ - Set a different excerpt to share for the post
 
 **Note:** When sharing information is changed for the post, both [share icons](../share-icons.md) and [floating sharebar](../floating-sharebar.md) features pick up the data to share.
+
+## Haven't got the plugin yet ?
+
+If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
+
+[Get PRO version](/wordpress-plugins/wp-socializer/) {.button}

@@ -5,6 +5,11 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 7.1
+* New: Share menu and short link popup HTML will be inserted in the page only when they are needed.
+* Fix: JS syntax error in Safari browser.
+* Fix: Share menu column issue in some themes.
+
 ### 7.0
 
 * PRO: Create and use custom icons.

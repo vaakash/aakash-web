@@ -44,6 +44,8 @@ The shortcode parameters supported can be also referred in `Settings` -> `Super 
 |visible_items|The number of feed items to be visible when ticker is enabled.|5||
 |ticker_speed|The speed of the ticker animation in seconds. Without units.|4||
 |grid_columns|The number of columns in the grid between 2 to 4.|2||
+|filter_type|Type of keyword filtering for the RSS feed items|no_filter|no_filter - No filtering, show - Show items based on filter, hide - Hide items based on filter|
+|filter_name|The name of the filter created|||
 
 ## Using the shortcode in theme templates
 

@@ -1,9 +1,17 @@
 ---
 title: Changelog
-menu_order: 7
+menu_order: 8
 taxonomy:
     doc_category: wordpress-plugins
 ---
+
+### 4.4
+* New in PRO: Filter feed items by keyword.
+* New: Option to prefer full content or summary to display as feed description.
+* New: Default ordering option.
+* New: Option to change no feed item text.
+* Fix: Bug with select field in widget form.
+* Fix: Read more link being displayed when description is empty.
 
 ### 4.3
 * New: Option to order/sort feed items by date, random.

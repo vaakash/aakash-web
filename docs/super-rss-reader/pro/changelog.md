@@ -5,6 +5,9 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 4.4.1
+* Fix: All feed items were displayed when "Order by" is selected as "default"
+
 ### 4.4
 * New in PRO: Filter feed items by keyword.
 * New: Option to prefer full content or summary to display as feed description.

@@ -64,4 +64,4 @@ The PRO version of the plugin includes below effects which you can choose from.
 
 If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
 
-[Get PRO version](https://www.aakashweb.com/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=animation&utm_campaign=ancr-pro#purchase) {.button}
+[Get PRO version](https://www.aakashweb.com/wordpress-plugins/announcer/?utm_source=doc&utm_medium=animation&utm_campaign=ancr-pro#pro) {.button}

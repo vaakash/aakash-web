@@ -15,7 +15,7 @@ This countdown timer helps to display a timer when you are announcing a "coupon"
 
 The countdown timer can be enabled under Announcement edit page > **Settings** > **Countdown timer**
 
-Below are the options available as of plugin version v4.2. Please note that the certain options might differ/new options might be available in the live product. Please [contact](/contact) or post a topic in the [support forum](/forum) in case of any queries with the option you are looking for.
+Below are the options available as of plugin version v5.2. Please note that the certain options might differ/new options might be available in the live product. Please [contact](/contact) or post a topic in the [support forum](/forum) in case of any queries with the option you are looking for.
 
 ![Countdown timer in Announcer - PRO plugin](/_images/ancrp-countdown-timer-2.png) {.wp-post-image}
 
@@ -34,4 +34,4 @@ The countdown timer has below CSS classes which you can use for making custom st
 
 If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
 
-[Get PRO version](https://www.aakashweb.com/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=countdown&utm_campaign=ancr-pro#purchase) {.button}
+[Get PRO version](https://www.aakashweb.com/wordpress-plugins/announcer/?utm_source=doc&utm_medium=countdown&utm_campaign=ancr-pro#pro) {.button}

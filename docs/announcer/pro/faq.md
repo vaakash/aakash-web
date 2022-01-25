@@ -1,6 +1,6 @@
 ---
 title: FAQ
-menu_order: 6
+menu_order: 7
 taxonomy:
     doc_category: wordpress-plugins
 ---
@@ -43,4 +43,4 @@ A: Yes, there is full control to set any text as needed. You can even hide the t
 
 If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
 
-[Get PRO version](https://www.aakashweb.com/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=faq&utm_campaign=ancr-pro#purchase) {.button}
+[Get PRO version](https://www.aakashweb.com/wordpress-plugins/announcer/?utm_source=doc&utm_medium=faq&utm_campaign=ancr-pro#pro) {.button}

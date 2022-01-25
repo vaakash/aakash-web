@@ -21,7 +21,7 @@ Announcer - PRO is a complete plugin and not an addon to Announcer free version.
 
 ## Installation
 
-Installing [Announcer - PRO](/wordpress-plugins/announcer-pro/) is just like any other WordPress plugin.
+Installing [Announcer - PRO](/wordpress-plugins/announcer/) is just like any other WordPress plugin.
 
 ### Install via admin page:
 
@@ -47,4 +47,4 @@ Once activated the plugin will continue to receive automatic updates for 1 year.
 
 If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
 
-[Get PRO version](https://www.aakashweb.com/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=installation&utm_campaign=ancr-pro#purchase) {.button}
+[Get PRO version](https://www.aakashweb.com/wordpress-plugins/announcer/?utm_source=doc&utm_medium=installation&utm_campaign=ancr-pro#pro) {.button}

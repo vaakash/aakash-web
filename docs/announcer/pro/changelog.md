@@ -1,9 +1,16 @@
 ---
 title: Changelog
-menu_order: 6
+menu_order: 8
 taxonomy:
     doc_category: wordpress-plugins
 ---
+
+### 5.3
+
+* PRO: Multiple messages feature.
+* New: Option to set background image for the bar
+* Fix: Moved "layout" options to a separate tab in the admin settings.
+* Fix: Minor admin UI color enhancements.
 
 ### 5.2
 
@@ -50,4 +57,4 @@ taxonomy:
 
 If you haven't downloaded the plugin yet, please visit the plugin homepage to purchase and download the plugin using the link below.
 
-[Get PRO version](/wordpress-plugins/announcer-pro/?utm_source=doc&utm_medium=changelog&utm_campaign=ancr-pro#purchase) {.button}
+[Get PRO version](/wordpress-plugins/announcer/?utm_source=doc&utm_medium=changelog&utm_campaign=ancr-pro#pro) {.button}

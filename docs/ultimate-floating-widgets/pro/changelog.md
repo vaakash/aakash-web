@@ -5,6 +5,15 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 2.2
+
+* New: Set different initial states for desktop and mobile.
+* New: Verifying device type is not affected by caching plugins.
+* New: Shortcodes are now supported in button texts.
+* New: Widget settings can be tweaked using WordPress filters hook.
+* Fix: Widget box was not fully scrollable when title is set.
+* Fix: Minor rearrangements to admin form fields.
+
 ### 2.1
 
 * PRO: Option to close widget box when clicked outside the popup/flyout.

@@ -5,6 +5,12 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 4.5
+* New: Display feed item date in relative format.
+* Fix: Minor enhancements to widget admin UI.
+* New in PRO: Filter by category.
+* Fix in PRO: Feed items count was incorrect when filter was applied.
+
 ### 4.4.1
 * Fix: All feed items were displayed when "Order by" is selected as "default"
 

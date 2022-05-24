@@ -5,6 +5,11 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 5.4
+* PRO: Duplicate announcement feature.
+* New: Option to close announcement when a link inside message is clicked.
+* Fix: Minor admin UI enhancements.
+
 ### 5.3
 
 * PRO: Multiple messages feature.

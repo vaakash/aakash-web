@@ -5,6 +5,11 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 2.3
+
+* New: Feature to save open or closed state of the widget box using cookies.
+* Fix: Minor enhancements to admin form fields.
+
 ### 2.2
 
 * New: Set different initial states for desktop and mobile.

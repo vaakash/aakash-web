@@ -1,9 +1,16 @@
 ---
 title: Changelog
-menu_order: 8
+menu_order: 9
 taxonomy:
     doc_category: wordpress-plugins
 ---
+
+### 4.6
+* New in PRO: Option to fetch thumbnail directly from the feed URL if not available.
+* New: Option to choose timezone for the date of feed items.
+* New: Error logging system in the PRO version.
+* Fix: Set default link URL when feed item has no link.
+* Fix: Break tags are retained in the feed description.
 
 ### 4.5
 * New: Display feed item date in relative format.

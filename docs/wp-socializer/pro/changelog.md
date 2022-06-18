@@ -5,6 +5,14 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 7.2
+* New: Comments button for the share icon.
+* New: Comments count is displayed for the comments icon.
+* Fix: WeChat share URL is updated.
+* Fix: Increased share menu popup level.
+* Fix: Minor admin UI fixes.
+* Fix in PRO: Bit.ly and Google Analytics settings can be imported and exported.
+
 ### 7.1
 * New: Share menu and short link popup HTML will be inserted in the page only when they are needed.
 * Fix: JS syntax error in Safari browser.

@@ -5,18 +5,18 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
-Wordpress has the feature of "hooks" with which users can add extra functionality to WordPress and its plugins and themes. Super RSS Reader has included below hooks using which you can manipulate/customize the plugin output as needed.
+WordPress has the feature of "hooks" with which users can add extra functionality to WordPress and its plugins and themes. Super RSS Reader has included below hooks using which you can manipulate/customize the plugin output as needed.
 
 ## Using hooks
 
 If you use a hook to add or manipulate code, you can add your custom code in a variety of ways:
 
 * To a custom child theme's functions.php file.
-* Using a plugin such as Code Snippets.
+* [Using a plugin such as Code Snippets](https://www.aakashweb.com/articles/best-methods-to-insert-custom-php-code-in-wordpress/).
 
 ## Filters
 
-This type of hook allows to tap into plugin process and manipulate/tweak before it is processed. Below are the filters supported by Super RSS Reader.
+This type of hook allows to tap into the plugin process and manipulate/tweak before it is processed. Below are the filters supported by Super RSS Reader.
 
 ### `srr_mod_item_html`
 

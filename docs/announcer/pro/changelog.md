@@ -5,6 +5,9 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 5.5
+* Fix: Enhancements to input and output data sanitization.
+
 ### 5.4
 * PRO: Duplicate announcement feature.
 * New: Option to close announcement when a link inside message is clicked.

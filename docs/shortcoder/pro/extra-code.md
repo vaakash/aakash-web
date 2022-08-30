@@ -21,6 +21,6 @@ The extra code option is available in the shortcode editing page under the "Shor
 
 ## FAQ
 
-### Is it possible to insert extra code at the top of the page i.e inside `</head>` tag?
+### Is it possible to insert extra code at the top of the page i.e inside `<head>` tag?
 
 No, it is not possible to do that. Extra code will be inserted only at the bottom of the page. Since shortcodes can be inserted at any place in a page, it is not possible to insert extra code ahead at the top of the page.

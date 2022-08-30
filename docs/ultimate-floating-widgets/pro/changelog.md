@@ -5,6 +5,11 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+
+### 2.4
+
+* Fix: Enhancements to input and output data sanitization.
+
 ### 2.3
 
 * New: Feature to save open or closed state of the widget box using cookies.

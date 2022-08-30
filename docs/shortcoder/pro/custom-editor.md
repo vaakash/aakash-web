@@ -9,6 +9,18 @@ Custom editor is a feature in Shortcoder PRO using which you can use any* editor
 
 ***tested with Block editor, Elementor and WP Bakery only**
 
+### Table of Contents
+
+1. [Getting started](#getting-started)
+    1. [Enabling Block editor](#enabling-block-editor)
+    2. [Enabling Elementor](#enabling-elementor)
+    3. [Enabling WP Bakery](#enabling-wp-bakery)
+2. [Using the custom editor](#using-the-custom-editor)
+    1. [Screenshot of block editor in use](#screenshot-of-block-editor-in-use)
+    2. [Screenshot of elementor in use](#screenshot-of-elementor-in-use)
+    3. [Screenshot of WP Bakery in use](#screenshot-of-wpbakery-in-use)
+3. [Importing content between custom and default editor](#importing-content)
+
 ## Getting started
 
 To use a custom editor for shortcode content, you must enable the editor of your choice for Shortcoder. You can follow the steps below to enable one or more editor(s) for Shortcoder.

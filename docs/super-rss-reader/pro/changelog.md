@@ -5,6 +5,14 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 4.7.1
+* Fix: Template field was stripping away some characters.
+
+### 4.7
+* New: Support for lazy loading is enabled for thumbnails.
+* New: WordPress requirement is updated.
+* Fix: Enhancements to widget form and feed output sanitization.
+
 ### 4.6
 * New in PRO: Option to fetch thumbnail directly from the feed URL if not available.
 * New: Option to choose timezone for the date of feed items.

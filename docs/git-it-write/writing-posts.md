@@ -33,8 +33,9 @@ Below post properties are supported right now.
 
 * `title` - The post title
 * `menu_order` - The menu order
-* `post_status` - The status of the post. Supported values: publish, draft
+* `post_status` - The status of the post. Supported values: publish, draft, pending, future
 * `post_excerpt` - The post excerpt
+* `post_date` - The post date to set. Supported format: `2022-09-01 20:14:59`
 * `taxonomy` - The taxonomies like post tags, categories etc. For custom post type please use the custom taxonomy name.
 * `custom_fields` - The custom fields of the post.
 

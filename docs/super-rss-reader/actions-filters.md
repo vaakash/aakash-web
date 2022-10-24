@@ -79,6 +79,31 @@ This filter allows to change the feed item's thumbnail URL.
         }
     ?>
 
+### `srr_mod_source_html`
+
+This filter allows to change the source feed text when multiple RSS feeds are merged into one (only in PRO version).
+
+#### Parameters
+
+    apply_filters( 'srr_mod_source_html', $source, $item, $feed );
+
+* `$source` __(string)__ - The source text HTML.
+* `$item` __(SimplePie_Item)__ - The current feed item's [SimplePie_item](http://simplepie.org/wiki/reference/simplepie_item/start) object.
+* `$feed` __(SimplePie)__ - The feed's [SimplePie](http://simplepie.org/api/class-SimplePie.html) object.
+
+#### Example
+
+    <?php
+        add_filter( 'srr_mod_source_html', 'srr_change_source_text', 10, 4 );
+
+        // This example changes the source text for all RSS feed URLs.
+
+        function srr_change_source_text( $source, $item, $feed ){
+            $source = '<a href="#">Custom feed source text</a>';
+            return $source;
+        }
+    ?>
+
 ## Actions
 
 Actions allows to execute function at specific point during the execution. Right now Super RSS Reader does not have any actions.

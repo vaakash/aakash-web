@@ -5,6 +5,11 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 4.8
+* New in PRO: Merge multiple RSS feeds into one.
+* New: Color theme (Modern 2).
+* Fix: Padding issue in one column layout.
+
 ### 4.7.1
 * Fix: Template field was stripping away some characters.
 

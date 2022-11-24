@@ -23,7 +23,7 @@ Right now Github is only supported.
 
 ### Can I use a private Github repository ?
 
-No. Right now only public Github repositories are supported.
+Yes. Private repositories can be published too. Ensure that the Github authentication details like username and access token are provided in the "General settings" section of the plugin.
 
 ### What all files in the repository will be published ?
 
@@ -31,11 +31,11 @@ All markdown files will be published as posts. HTML is not supported right now, 
 
 ### What are not published ?
 
-Any folder/file starting with `_` (underscore), `.` (dot) won't be considered for publishing.
+Any folder/file starting with `_` (underscore), `.` (dot) won't be considered for publishing. You can also add `skip_file` property to the file header to ignore that file.
 
-### From which branch files will be picked ? Can I select a branch ?
+### Can I publish files from any branch?
 
-Right now files are picked only from the `master` branch and there is no option to select other branches.
+Yes, you can publish files from the branch of your choice.
 
 ### How will be the posts published ?
 

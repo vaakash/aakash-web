@@ -36,8 +36,12 @@ Below post properties are supported right now.
 * `post_status` - The status of the post. Supported values: publish, draft, pending, future
 * `post_excerpt` - The post excerpt
 * `post_date` - The post date to set. Supported format: `2022-09-01 20:14:59`
+* `comment_status` - The comment status for the post. Supported values: `open`, `closed`
+* `page_template` - The page template to set for the post
+* `stick_post` - Mark the post as sticky. Supported values: `yes` to mark as sticky, `no` to unstick the post.
 * `taxonomy` - The taxonomies like post tags, categories etc. For custom post type please use the custom taxonomy name.
 * `custom_fields` - The custom fields of the post.
+* `skip_file` - Skip the file from being published. Supported value: `yes` to skip the file.
 
 ### Example
 

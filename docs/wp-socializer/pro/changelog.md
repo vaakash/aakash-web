@@ -5,6 +5,22 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 7.4
+* New: Option to simplify floating sharebar in small screen.
+* Fix: Icons are now centered correctly.
+* Fix: Share menu link color is overridden sometimes.
+* Fix: Share link popup window size is increased.
+* Fix: Styling issues with ribbon and drop icon shapes.
+
+### 7.3.1
+* Fix: Floating sharebar was not honoring position.
+
+### 7.3
+* Fix: UTF-8 characters can now be set as icon text in all features.
+* Fix: Icon configurations are now stored directly as JSON without base64 encoding.
+* Fix: Most user inputs are now sanitized and escaped.
+* Fix: Minor admin UI enhancements.
+
 ### 7.2
 * New: Comments button for the share icon.
 * New: Comments count is displayed for the comments icon.

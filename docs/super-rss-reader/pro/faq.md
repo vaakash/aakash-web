@@ -1,6 +1,6 @@
 ---
 title: FAQ
-menu_order: 6
+menu_order: 9
 taxonomy:
     doc_category: wordpress-plugins
 ---

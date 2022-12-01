@@ -1,6 +1,6 @@
 ---
 title: Changelog
-menu_order: 9
+menu_order: 10
 taxonomy:
     doc_category: wordpress-plugins
 ---

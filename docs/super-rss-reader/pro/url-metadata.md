@@ -1,6 +1,6 @@
 ---
 title: URL Metadata
-menu_order: 8
+menu_order: 7
 taxonomy:
     doc_category: wordpress-plugins
 ---

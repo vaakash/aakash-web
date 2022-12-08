@@ -5,6 +5,8 @@ taxonomy:
     post_tag:
         - release
         - super-rss-reader
+custom_fields:
+    _thumbnail_id: 9402
 ---
 
 Super RSS Reader v4.8 is now available. This is release includes new features and number of enhancements and bug fixes. It is now available for both free and PRO versions.

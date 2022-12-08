@@ -5,6 +5,15 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 5.7
+* New: Visual editor enabled for the announcement message.
+* Fix: Padding value not honored.
+
+### 5.6
+* New: `nofollow` attribute can be added to buttons.
+* New: Option to add a button to multiple messages at once.
+* New: Options to assign buttons to 30 messages.
+
 ### 5.5
 * Fix: Enhancements to input and output data sanitization.
 

@@ -5,6 +5,13 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 5.8
+* New: Horizontal ticker feature.
+* Fix: Font size and color of the bar is now strictly applied.
+* Fix: Bar padding is adjusted when close button is enabled.
+* Fix: `padding` key not found warning message.
+* Fix: "Add new message" button did not work when visual editor was selected.
+
 ### 5.7
 * New: Visual editor enabled for the announcement message.
 * Fix: Padding value not honored.

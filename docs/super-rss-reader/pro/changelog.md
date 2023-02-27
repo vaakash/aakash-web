@@ -5,6 +5,13 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 4.9
+* New in PRO: Paginated display type.
+* New in PRO: Wildcard value is now supported as filter value.
+* New: Option to set fixed height for the feed with scrollbar.
+* New: RSS feeds are now fetched with Chrome user agent.
+* Fix: `<b>` tag is now included in the rich text description.
+
 ### 4.8
 * New in PRO: Merge multiple RSS feeds into one.
 * New: Color theme (Modern 2).

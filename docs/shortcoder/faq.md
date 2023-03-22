@@ -66,13 +66,13 @@ A: No, but this is dependent on how many shortcodes inserted in a post. When the
 
 ```
 Paragraph 1
-[sc name="my-shortcode-1"]
+[[sc name="my-shortcode-1"]]
 
 Paragraph 2
-[sc name="my-shortcode-2"]
+[[sc name="my-shortcode-2"]]
 
 Paragraph 3
-[sc name="my-shortcode-3"][/sc]
+[[sc name="my-shortcode-3"][/sc]]
 ```
 
 ❌ Here, everything between my-shortcode-1 and my-shortcode-3 won't be displayed because my-shortcode-3 has a closing shortcode.
@@ -84,20 +84,20 @@ Learn more about how [nested shortcodes here](https://codex.wordpress.org/Shortc
 
 ### Q: Why a chunk of post content is missing (or) shortcode not executed in my post?
 <div markdown="1">
-A: This might be because, there would a mix of open and closed shortcoder shortcodes in your post. Please ensure all shortcodes are either closed with `[[/sc]]` tag or all shortcodes are fully open. A mix of both will cause parsing issue.
+A: This might be because, there would a mix of open and closed shortcoder shortcodes in your post. Please ensure all shortcodes are either closed with `[/sc]` tag or all shortcodes are fully open. A mix of both will cause parsing issue.
 
 ```
 Paragraph 1
-[sc name="my-shortcode-1"][/sc]
+[[sc name="my-shortcode-1"][/sc]]
 
 Paragraph 2
-[sc name="my-shortcode-2"][/sc]
+[[sc name="my-shortcode-2"][/sc]]
 
 Paragraph 3
-[sc name="my-shortcode-3"][/sc]
+[[sc name="my-shortcode-3"][/sc]]
 ```
 
-✅ Close all the Shortcoder's shortcodes in a post with `[[/sc]]`.
+✅ Close all the Shortcoder's shortcodes in a post with `[/sc]`.
 </div>
 
 ### Q: Can other users create/modify/use shortcodes ?

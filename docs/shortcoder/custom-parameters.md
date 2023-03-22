@@ -17,7 +17,7 @@ Note: Custom parameter "name" is not allowed as the same attribute name is used 
 
 In a shortcode content any number of custom parameters can be used. While using if any custom parameter attribute is not provided, the custom parameter tokens will be replaced but with blank content.
 
-Shortcoder also provides an easy interface to set values for custom parameters in the "Insert shortcode" popup in the post/page editors.
+Shortcoder also provides an easy interface to set values for custom parameters in the "Insert shortcode" popup in the post/page editors. __Note:__ Both double and single quotes can be used to set value for the custom parameters.
 
 ## Examples
 

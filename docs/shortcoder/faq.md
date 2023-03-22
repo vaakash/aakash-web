@@ -60,6 +60,46 @@ A: Yes, you can use any shortcode. Please make sure the same shortcoder shortcod
 
 A: No, this is not supported. Shortcodes created via shortcoder are identified via `sc` and cannot be changed. Please refer the [shortcoder API](https://codex.wordpress.org/Shortcode_API) to create custom shortcodes.
 
+### Q: Do we need to close all shortcodes with `[/sc]`?
+<div markdown="1">
+A: No, but this is dependent on how many shortcodes inserted in a post. When there is a mix of open and closed shortcodes in a post, WordPress cannot parse the shortcode in the right order. This will lead to some shortcodes considered as nested shortcodes.
+
+```
+Paragraph 1
+[sc name="my-shortcode-1"]
+
+Paragraph 2
+[sc name="my-shortcode-2"]
+
+Paragraph 3
+[sc name="my-shortcode-3"][/sc]
+```
+
+❌ Here, everything between my-shortcode-1 and my-shortcode-3 won't be displayed because my-shortcode-3 has a closing shortcode.
+
+It is always a good practice to close all the shortcodes or keep all shortcodes open. A mix of both will cause the above issue.
+
+Learn more about how [nested shortcodes here](https://codex.wordpress.org/Shortcode_API#Unclosed_Shortcodes)
+</div>
+
+### Q: Why a chunk of post content is missing (or) shortcode not executed in my post?
+<div markdown="1">
+A: This might be because, there would a mix of open and closed shortcoder shortcodes in your post. Please ensure all shortcodes are either closed with `[[/sc]]` tag or all shortcodes are fully open. A mix of both will cause parsing issue.
+
+```
+Paragraph 1
+[sc name="my-shortcode-1"][/sc]
+
+Paragraph 2
+[sc name="my-shortcode-2"][/sc]
+
+Paragraph 3
+[sc name="my-shortcode-3"][/sc]
+```
+
+✅ Close all the Shortcoder's shortcodes in a post with `[[/sc]]`.
+</div>
+
 ### Q: Can other users create/modify/use shortcodes ?
 
 A: Yes, other users can create/modify shortcodes when the user's role has the capability to create/edit shortcoder admin page. Plugins like [user role editor](https://wordpress.org/plugins/user-role-editor/) can be used to set the necessary capabilities on the shortcode admin page to make the users create/edit shortcodes. Please note that shortcodes created by any user can be used by any user in posts and pages.

@@ -46,7 +46,8 @@ Below post properties are supported right now.
 
 ### Example
 
-```---
+```
+---
 title: Title of the post
 menu_order: 1
 post_status: publish

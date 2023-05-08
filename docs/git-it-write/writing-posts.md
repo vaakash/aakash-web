@@ -42,15 +42,16 @@ Below post properties are supported right now.
 * `taxonomy` - The taxonomies like post tags, categories etc. For custom post type please use the custom taxonomy name.
 * `custom_fields` - The custom fields of the post.
 * `skip_file` - Skip the file from being published. Supported value: `yes` to skip the file.
+* `featured_image` - The path of the image under `_images` directory to set as featured image. Remote image URLs are not supported. Example: `_images/post-image-1.png`
 
 ### Example
 
-```
----
+```---
 title: Title of the post
 menu_order: 1
 post_status: publish
 post_excerpt: This is a post excerpt
+featured_image: _images/post-image.jpg
 taxonomy:
     category:
         - category-slug-1
@@ -65,12 +66,26 @@ custom_fields:
 
 ## My post content
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a lacinia orci. Nunc sodales massa enim, nec consectetur orci tempus ac. Phasellus dapibus vitae lectus quis consectetur
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a lacinia orci.
+Nunc sodales massa enim, nec consectetur orci tempus ac.
+
+### Section with image
+
+![alt text for the image](/_images/pic4.jpg "Caption for the image")
+
+Nam rutrum ultricies sapien id rhoncus. In pellentesque efficitur suscipit.
+Aliquam vel est consectetur lectus malesuada mollis sit amet non neque. 
+
+### Section with link
+
+This is a [relative link](../sub-dir1/post3.md) which links to another markdown post w.r.t the current file.
+This is an [absolute link](/folder1/sub-dir1/post3.md) which links to another post w.r.t the root directory.
+
 ```
 
 ## Using images
 
-Images can be inserted into markdown files normally. All images should be present in the `_images` folder at the root of the repository without organized as folders. They can be then used in the files relatively like `![alt text](/_images/pic4.jpg "This is pic4")`.
+Images can be inserted into markdown files normally. All images should be present in the `_images` folder. Images can be organized in folders. They can be then used in the files relatively like `![alt text](/_images/pic4.jpg "Caption for the image")`.
 
 All the images in the `_images` folder will be uploaded to the WordPress library and the images will be linked automatically to the post as they are uploaded.
 

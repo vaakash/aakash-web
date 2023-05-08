@@ -25,6 +25,10 @@ It does not matter if your repository is new, empty, old with files already. Bel
 1. Select a post type to which posts have to be published. A hierarchial post type is preferred as it allows parent, child posts in a tree like structure provided custom permalinks are configured in your site. Read [FAQ](./faq.md) for more information on this.
 1. Save the settings.
 
+### Configuring authentication settings
+
+Git it write supports both public and private repositories. If you are publishing posts from a private repository, configure the authentication settings like GitHub username and [GitHub access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-token) under the "General settings" section. Note that this authentication setting applies to all the repositories which are configured.
+
 ## The webhook
 
 Github Webhook allows to notify the plugin whenever the files in the repository are modified. This allows the plugin to fetch the latest changes automatically and publish/update the posts automatically without any manual need to pull posts.
@@ -39,6 +43,8 @@ If you do not own the repository then you cannot configure webhooks. Also if you
 1. Save the settings.
 
 Webhook is now configured. So whenever repository changes, the payload URL will be notified and the plugin will take care of adding/updating the posts.
+
+**Note:** If there are many posts to publish/modify then the webhook request might fail or return HTTP code 500. This is because, the request can get timed out. But all the posts/changes will be published successfully.
 
 ## Writing in markdown
 

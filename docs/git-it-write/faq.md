@@ -42,20 +42,20 @@ Yes, you can publish files from the branch of your choice.
 If a repository has files in the below structure,
 
 ```
-docs\\
-    guide\\
+docs/
+    guide/
         introduction.md
         getting-started.md
-help\\
+help/
     faq.md
 ```
 
 Then below posts will be created like below (if permalinks are configured and the post type supports "hierarchy" i.e creating posts level by level (example: pages))
 
 ```
-https:\\\\example.com\\docs\guide\\introduction\\
-https:\\\\example.com\\docs\guide\\getting-started\\
-https:\\\\example.com\\help\\faq\\
+https://example.com/docs/guide/introduction/
+https://example.com/docs/guide/getting-started/
+https://example.com/help/faq/
 ```
 
 Note that the post's slug will be the name of the file (without extension)

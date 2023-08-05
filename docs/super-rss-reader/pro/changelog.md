@@ -5,6 +5,16 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 5.0
+* New: Option to show/hide feed item title.
+* New: Option to link description text with the feed item URL.
+* New: Option to offset/skip RSS feed items.
+* New: Option to set different width and height for the thumbnail.
+* Fix: PHP 8 warnings.
+* Fix: Additional ellipsis are now stripped from the description text.
+* PRO: Support for 6 grid columns.
+* PRO: Google news and Google alerts RSS feeds will now fetch thumbnail image.
+
 ### 4.9
 * New in PRO: Paginated display type.
 * New in PRO: Wildcard value is now supported as filter value.

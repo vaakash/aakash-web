@@ -32,8 +32,7 @@ The parameter `display_type` hsa to be set to the value `grid`. Example `[print_
 When grid display type is enabled there are specific CSS class added to the feed which can be used to customize the feed display as needed.
 
 1. `srr-grid` - To the feed wrap element
-1. `srr-g-col-2/3/4` - To the feed wrap element depending on the number of columns chosen. Example `srr-g-col-3`
-`.
+1. `srr-g-col-2/3/4/5/6` - To the feed wrap element depending on the number of columns chosen. Example `srr-g-col-3`.
 1. `srr-last-row-item` - To the last feed item in the row.
 
 ### Alternating colors

@@ -5,6 +5,15 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 5.9
+* PRO: Visitor condition rule to target by "Geo-location with timezone".
+* PRO: Visitor condition rules to target by "User locale".
+* Fix: Call to Action button supports relative URLs.
+* Fix: Misc CSS enhancements to CTA button and message style precedence.
+* Fix: Misc admin UI enhancements.
+* Fix: New close, left and right arrow icons.
+* Fix: PHP warnings at some places.
+
 ### 5.8
 * New: Horizontal ticker feature.
 * Fix: Font size and color of the bar is now strictly applied.

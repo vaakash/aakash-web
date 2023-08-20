@@ -63,7 +63,21 @@ Target users on the user role assigned to them. This works only when the user is
 
 **Example:** `User role` - `is` - `subscriber` will target users with the role subscriber. If you want to target multiple roles then please add a new rule group for each.
 
-### 9) Custom function
+### 9) User language
+
+Target users based on the language set on the computer. Enter a text to match the user's browser locale. Example: `en-US`. [Click here](https://www.techonthenet.com/js/language_tags.php) to view the full list.
+
+**Example:** `User language` - `contains` - `en-us` will target users with browser locale set with `en-US`.
+
+### 10) Geolocation with timezone
+
+Target users based on the timezone set on their computer. The given value will be verified against the text like `Asia/Calcutta India Standard Time GMT+5:30`.
+
+Enter a text like India or Calcutta or +5:30 to target users from India. [Click here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) to see the list of timezones.
+
+**Example:** `Geolocation with timezone` - `contains` - `Calcutta` to target users from `India`
+
+### 11) Custom function
 
 Target users who meet your own custom JavaScript function. The custom JavaScript function should return `true` or `false` after evaluating your own custom logic.
 
@@ -81,13 +95,13 @@ Use this to write your own rules in case above rules are not satisfied or if you
 
 You can then set the function name as value to the rule like `Custom function` - `is` - `announcer_small_screen`
 
-### 10) URL
+### 12) URL
 
 Target users based on the text in the URL. Multiple operators like `contains`, `regex` and more are supported by this rule.
 
 **Example:** `URL` - `contains` - `hello` will target users when the page URL has the word `hello`
 
-### 11) Number of times an user has logged in
+### 13) Number of times an user has logged in
 
 Target users based on the number of times they have logged in. This is tracked by placing a cookie in the user's browser and increasing it whenever they login. When there is no cookie, the user is considered to have no logins. This cookie expires in 1 year.
 
@@ -95,7 +109,7 @@ Multiple operators like `greater_than`, `lesser_than` and `equal_to` are support
 
 **Example:** `No. of times an user logged in is` - `greater_than` - `10` will target users who has logged in to the website more than 10 times.
 
-### 12) Number of times an user has visited the site
+### 14) Number of times an user has visited the site
 
 Target users based on the number of time they have viewed the site. This is tracked by placing a cookie in the user's browser and increasing it every 1 hour whenever they visit the site. This information is recorded for the entire site and not for an individual page. When there is no cookie, the user is considered to have no visits. This cookie expires in 1 year.
 

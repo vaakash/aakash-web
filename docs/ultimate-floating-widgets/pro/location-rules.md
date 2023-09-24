@@ -23,6 +23,7 @@ You can create rules with conditions for the following pages,
 * `Home page` - To display in home page.
 * `Front page` - To display in front page.
 * `Sticky posts` - To display in sticky posts.
+* `Search` - To display in search page.
 * `Post type` - To display in specific post types.
 * `Post format` - To display in posts of specific post format(s).
 * `Archive pages` - To display in archive pages like category, tags, date, month.

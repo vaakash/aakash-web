@@ -5,6 +5,25 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 2.7
+
+* PRO: Location rules now supports search page.
+* PRO: Visitor condition rule to target by "Geo-location with timezone".
+* PRO: Visitor condition rules to target by "User locale".
+* New: Widget box animates when it is opened automatically.
+* Fix: Widget box saved state not working when save duration is set to 0.
+* Fix: Button icon is now aligned correctly in the center.
+* Fix: Button with icon and text was not aligned properly.
+
+### 2.6
+
+* Fix: "Hide in pages" option hides the widget in the front page.
+* Fix: Button flashes on page load when it is displayed on scroll.
+
+### 2.5
+
+* Fix: Initial state on mobile option not getting saved.
+* Fix: Additional CSS was not inserted correctly.
 
 ### 2.4
 

@@ -5,6 +5,21 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 7.6
+* New: Upgrade to FontAwesome v6
+* New: Support for X icon
+* New: Support for Threads icon
+* New: Support for Mastodon icon
+* New: Support for Flipboard icon
+* New: Updated colors for Facebook, Facebook messenger and WhatsApp
+* New: Updated icon for Facebook messenger
+* Fix: Upgraded text labels in admin UI for Twitter widget.
+* Fix: Deprecated FontAwesome v4.
+* Fix: Restrict admin ajax calls with nonce.
+
+### 7.5
+* New: Pinterest widget for profile, board and pins.
+
 ### 7.4
 * New: Option to simplify floating sharebar in small screen.
 * Fix: Icons are now centered correctly.

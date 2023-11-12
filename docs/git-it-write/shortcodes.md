@@ -7,7 +7,7 @@ taxonomy:
 
 ## Edit link shortcode
 
-Git it write plugin has a shortcode `[print_sc sc="{giw_edit_link}"]` to add "Edit this page" to your posts. This will add a link to the markdown file in the Github repository allowing users to fork and contribute to the repository.
+Git it write plugin has a shortcode `[print_sc sc="{giw_edit_link}"]` to add "Edit this page" to your posts. This will add a link to the markdown file in the GitHub repository allowing users to fork and contribute to the repository.
 
 This shortcode can be added in plugin repository settings page under "post content template"
 

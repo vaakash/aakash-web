@@ -19,6 +19,8 @@ Git it write considers the file name as the post slug i.e if the name of the fil
 
 It is recommended to use standard characters and avoid space as file names as the file name and post slug are used as identifiers. Having a standard name will maintain same post slug as the file name.
 
+__Note:__ Only markdown files will be taken for publishing. These files must end with `.md`.
+
 ## Folders
 
 For every folder present in the repository, a post will be created. The content of the folder post will be taken from the `index.md` file present under the directory. See [this repository](https://github.com/vaakash/aakash-web/tree/master/docs) for an example.
@@ -82,6 +84,31 @@ Aliquam vel est consectetur lectus malesuada mollis sit amet non neque.
 This is a [relative link](../sub-dir1/post3.md) which links to another markdown post w.r.t the current file.
 This is an [absolute link](/folder1/sub-dir1/post3.md) which links to another post w.r.t the root directory.
 
+### Section with HTML
+
+<section id="home">
+    <h2>Welcome to Our Website!</h2>
+    <p>This is a sample HTML page with JavaScript and CSS styling.</p>
+    <button type="button" onclick="showMessage()">Show message</button>
+</section>
+
+<script>
+    function showMessage() {
+        alert('Thank you for contacting us!');
+    }
+</script>
+
+<!-- Sample CSS Style -->
+<style>
+    h1 {
+        color: red;
+    }
+</style>
+
+### Section with Shortcodes
+
+[gallery ids="3052,3050,2952" columns="3" size="medium"]
+
 ```
 
 ## Using images
@@ -99,3 +126,7 @@ Please refer [this repository](https://github.com/vaakash/test/) for an example 
 Links can be added normally as per markdown syntax. It is preferred to use relative links to refer any post in the repository i.e to refer any post in the same directory use `./faq.md` as the link value. Git it write will convert it to `/faq/` before publishing. By doing this, the markdown files are linked correctly both in the github page and in your main website.
 
 **Example:** `../guide/doc1.md` will link a `doc1.md` file from the `guide` folder one level up relatively. Similarly `.` can be used for current directory and `/` to refer the file from the root of the repository i.e `/folder1/folder2/doc2.md`.
+
+## Using HTML
+
+HTML can be used inside the markdown file like normal. An example is demonstrated above. Note that file must still remain `.md`. All tags are supported and there are no explicit filtering as of now.

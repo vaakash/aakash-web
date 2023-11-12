@@ -5,15 +5,15 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
-Using "Git it write" WordPress plugin, you can publish markdown present in a Github repository.
+Using "Git it write" WordPress plugin, you can publish markdown present in a GitHub repository.
 
-## The Github repository
+## The GitHub repository
 
-Since posts are published from a Github repository, you should have a public Github repository. Please check [github docs](https://docs.github.com/en/github/getting-started-with-github/create-a-repo) on how to create a Github repository if you are new to it.
+Since posts are published from a GitHub repository, you should have a public GitHub repository. Please check [github docs](https://docs.github.com/en/github/getting-started-with-github/create-a-repo) on how to create a GitHub repository if you are new to it.
 
 ## Adding the repository to the plugin
 
-Once you have a Github repository (or if you wish to pull from another public repository) you can configure Git it write plugin on the same. Your repository will have an owner and the name of the repository itself. This information is used to configure in the plugin settings page.
+Once you have a GitHub repository (or if you wish to pull from another public repository) you can configure Git it write plugin on the same. Your repository will have an owner and the name of the repository itself. This information is used to configure in the plugin settings page.
 
 It does not matter if your repository is new, empty, old with files already. Below configuration can be done anytime.
 
@@ -31,14 +31,14 @@ Git it write supports both public and private repositories. If you are publishin
 
 ## The webhook
 
-Github Webhook allows to notify the plugin whenever the files in the repository are modified. This allows the plugin to fetch the latest changes automatically and publish/update the posts automatically without any manual need to pull posts.
+GitHub Webhook allows to notify the plugin whenever the files in the repository are modified. This allows the plugin to fetch the latest changes automatically and publish/update the posts automatically without any manual need to pull posts.
 
 If you do not own the repository then you cannot configure webhooks. Also if you do not wish to automatically update posts, then you can skip configuring the webhook.
 
 1. Go to Settings -> Git it write settings page.
-1. Under "General settings" enter a secret key which will be used by all the Github repositories you configure.
-1. Go to Github repository settings -> Webhook and add a webhook for the payload URL as mentioned in the settings page.
-1. Enter the same secret key in Github webhook settings page.
+1. Under "General settings" enter a secret key which will be used by all the GitHub repositories you configure.
+1. Go to GitHub repository settings -> Webhook and add a webhook for the payload URL as mentioned in the settings page.
+1. Enter the same secret key in GitHub webhook settings page.
 1. Set the remaining webhook settings accordingly as mentioned.
 1. Save the settings.
 
@@ -58,7 +58,7 @@ See [writing posts](./writing-posts.md) page for more information on this.
 
 ### When webhook is configured
 
-Whenever you commit and push the changes or pull changes to the repository the Github will notify the plugin and the plugin will automatically publish the posts by reading the markdown files from the repository as HTML post content.
+Whenever you commit and push the changes or pull changes to the repository the GitHub will notify the plugin and the plugin will automatically publish the posts by reading the markdown files from the repository as HTML post content.
 
 ### When webhook is not configured or manually publishing
 

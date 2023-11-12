@@ -7,27 +7,31 @@ taxonomy:
 
 ### What is this plugin for ?
 
-Git it Write plugin allows to publish posts in WordPress using the files present in a Github repository
+Git it Write plugin allows to publish posts in WordPress using the files present in a GitHub repository
 
 ### What is the use of this plugin ?
 
-Using this plugin you can manage the post content in a Github repository and work on it. The files will be pulled and published in WordPress automatically whenever the repository is updated. With this concept, if you need to maintain a documentation site, then you can create a Github repository, write your docs in markdown format and use this plugin to publish them as posts in your website. You can now ask your users to contribute to the documentation repository, accept suggestions etc. from the community.
+Using this plugin you can manage the post content in a GitHub repository and work on it. The files will be pulled and published in WordPress automatically whenever the repository is updated. With this concept, if you need to maintain a documentation site, then you can create a GitHub repository, write your docs in markdown format and use this plugin to publish them as posts in your website. You can now ask your users to contribute to the documentation repository, accept suggestions etc. from the community.
 
-### When a post is edited in WordPress will that update the file in the Github repository ?
+### When a post is edited in WordPress will that update the file in the GitHub repository ?
 
-No. This plugin won't sync post content. It is a one way update. Only changes made to the Github repository will update the posts and not otherwise.
+No. This plugin won't sync post content. It is a one way update. Only changes made to the GitHub repository will update the posts and not otherwise.
 
 ### Which Git hosting services are supported ?
 
-Right now Github is only supported.
+Right now GitHub is only supported.
 
-### Can I use a private Github repository ?
+### Can I use a private GitHub repository ?
 
-Yes. Private repositories can be published too. Ensure that the Github authentication details like username and access token are provided in the "General settings" section of the plugin.
+Yes. Private repositories can be published too. Ensure that the GitHub authentication details like username and access token are provided in the "General settings" section of the plugin.
 
 ### What all files in the repository will be published ?
 
-All markdown files will be published as posts. HTML is not supported right now, but there are plans to add support in the future.
+All markdown files (`.md`) will be published as posts. It will be converted to HTML and that HTML will be set as post content.
+
+### Can I used HTML in the markdown file?
+
+Yes, HTML is supported and can be used inside the markdown file. Note that the file extension must remain `.md`.
 
 ### What are not published ?
 
@@ -139,21 +143,21 @@ Yes, the post can be edited as needed. But when the source markdown file has cha
 
 ### Post is not updating automatically when files in the repository are updated
 
-Posts will be updated whenever Github sends an event to your WordPress site that files are added/updated. Please ensure that webhook related settings are set correctly both in the plugin and at the Github repository settings.
+Posts will be updated whenever GitHub sends an event to your WordPress site that files are added/updated. Please ensure that webhook related settings are set correctly both in the plugin and at the GitHub repository settings.
 
 Go to logs page and view logs for any errors or failures while processing the event.
 
-You can also view Github webhook settings page for all the events sent and the response received for various times.
+You can also view GitHub webhook settings page for all the events sent and the response received for various times.
 
 ### Does it support Gutenberg ?
 
-Since HTML files are not supported right now, Gutenberg is not supported. When HTML supported is added, the Gutenberg block HTML template can be used.
+Yes, Gutenberg/block editor stores post content as a HTML comments behind the scenes. So if you can insert the same block syntax (i.e HTML comments) in the markdown file, then the block will work as expected in the post. Learn more about the [block editor post format here](https://developer.wordpress.org/block-editor/getting-started/faq/#how-is-data-stored-ive-seen-html-comments-what-is-their-purpose)
 
 ### Can I use shortcodes in file content ?
 
 Yes, shortcodes can be used as is like normal.
 
-### How to display the Github edit link in the post ?
+### How to display the GitHub edit link in the post ?
 
 There is an inbuilt shortcode `[g2w_edit_link]` which can be added to the post content template in the repository settings page. This will return an output like `Edit this page`. Below shortcode attributes are supported.
 
@@ -165,6 +169,6 @@ There is an inbuilt shortcode `[g2w_edit_link]` which can be added to the post c
 
 No. Custom post types can be created using other plugins like "Custom post type UI" and they can be only selected while configuring the repository.
 
-### Webhook request is seen as timed out in Github webhook history
+### Webhook request is seen as timed out in GitHub webhook history
 
-The webhook request sent by Github expects a reply in 10 seconds else considers th event as timed out. In case of this plugin, it is normal to take more than 10 seconds for creating/updating multiple posts. This time out message can be ignored as the plugin will continue to post in the background. You can see the plugin logs for more information WRT to the webhook delivery.
+The webhook request sent by GitHub expects a reply in 10 seconds else considers th event as timed out. In case of this plugin, it is normal to take more than 10 seconds for creating/updating multiple posts. This time out message can be ignored as the plugin will continue to post in the background. You can see the plugin logs for more information WRT to the webhook delivery.

@@ -21,6 +21,10 @@ Yes, any kind of content, formatting which are regularly added to posts/pages ca
 
 Yes, the plugin allows to create custom rules to decide where the announcements have to be displayed.
 
+### Does it support WPML translation?
+
+The plugin supports rules where you can display the announcement on specific language. Using this feature, you can show/hide announcement based on the post language.
+
 ### Can I display the announcement after some time ?
 
 Yes, you can configure time to display the announcement after page load in certain time.

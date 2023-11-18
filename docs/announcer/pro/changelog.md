@@ -5,6 +5,15 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 6.0
+* PRO: Option to hide countdown timer elements.
+* New: Location rule to target by WPML language.
+* New: Location rule to target search page.
+* New: Location rule to select all post statuses.
+* Fix: Ticker scroll was abrupt when using images.
+* Fix: Background image URL not set correctly.
+* Fix: Added nonce to admin ajax call.
+
 ### 5.9
 * PRO: Visitor condition rule to target by "Geo-location with timezone".
 * PRO: Visitor condition rules to target by "User locale".

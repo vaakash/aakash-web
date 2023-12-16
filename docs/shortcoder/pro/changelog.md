@@ -5,6 +5,11 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 6.3.2
+* PRO: Custom editor option not saving sometimes.
+* Fix: Admin ajax vulnerability with nonce.
+* Fix: Verify permissions while closing Shortcoder changelog.
+
 ### 6.3
 * PRO: Custom editor preview works only for editor authors.
 * New: Set default value for the custom field parameters.

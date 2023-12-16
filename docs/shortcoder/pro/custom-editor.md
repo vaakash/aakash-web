@@ -9,6 +9,10 @@ Custom editor is a feature in Shortcoder PRO using which you can use any* editor
 
 ***tested with Block editor, Elementor and WP Bakery only**
 
+#### Brief demo video
+
+https://www.youtube.com/watch?v=EqTBBy1VFaY
+
 ### Table of Contents
 
 1. [Getting started](#getting-started)

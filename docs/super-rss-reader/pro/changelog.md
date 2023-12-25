@@ -5,6 +5,11 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 5.1
+* Fix: Restrict admin ajax calls with nonce.
+* Fix: Enhancements to pick thumbnail from srcsets and skip remote relative thumbnails.
+* Fix: Comment user avatar is added to comments RSS feed.
+
 ### 5.0
 * New: Option to show/hide feed item title.
 * New: Option to link description text with the feed item URL.

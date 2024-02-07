@@ -5,6 +5,16 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 2.8
+
+* Fix: Support for gradient background colors in buttons.
+* Fix: Dedicated close button in popup is visible on small screens.
+* Fix: Invalid CSS value for close button.
+* Fix: Button has fade in effect when auto shown.
+* Fix: External close button is hidden when flyout popup is in open state.
+* PRO: Support for WPML language location rules filter.
+* PRO: Posts of all status are shown in location rules.
+
 ### 2.7
 
 * PRO: Location rules now supports search page.

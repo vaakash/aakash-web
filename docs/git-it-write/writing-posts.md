@@ -31,6 +31,8 @@ If there is no `index.md` file under the folder then the post content will be bl
 
 Post properties like post title, tags can be set easily in the markdown file itself. They are added to the top of the file between two `---` triple hyphen lines. This is called "front matter" is follows the YAML syntax. See [YAML syntax](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) for more details.
 
+__Note:__ Post property field names are case-sensitive.
+
 Below post properties are supported right now.
 
 * `title` - The post title

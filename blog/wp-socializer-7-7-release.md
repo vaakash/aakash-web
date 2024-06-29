@@ -13,7 +13,7 @@ WP Socializer v7.7 is now available. This is a maintenance release that includes
 
 Please find the changelog below. You can also follow us on Twitter for latest updates [@aakashweb](https://twitter.com/aakashweb)
 
-![WP Socializer WordPress plugin now supports icons like X, Mastodon, Flipboard and threads](/_images/wpsr-blog-7.7-release.png)
+![WP Socializer WordPress plugin now supports icons like X, Mastodon, Flipboard and threads](/_images/wpsr-blog-7.6-release.png)
 
 ### ✨ Changelog
 

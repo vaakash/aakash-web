@@ -5,6 +5,11 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 5.2
+* Fix: Order whole RSS feed by date.
+* Fix: Handle `null` returns.
+* PRO: Pull description from the source URL for Google news and Google alerts.
+
 ### 5.1
 * Fix: Restrict admin ajax calls with nonce.
 * Fix: Enhancements to pick thumbnail from srcsets and skip remote relative thumbnails.

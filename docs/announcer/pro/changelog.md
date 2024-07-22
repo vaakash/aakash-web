@@ -5,6 +5,17 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 6.1
+* New: Slide down effect on the page when announcement is shown.
+* Fix: Close button is repositioned to not overlap content.
+* Fix: Border radius is incorrectly set on the announcement bar.
+* Fix: Adjust button margin on smaller screens.
+* Fix: Ticker scroll overflows sometimes.
+* PRO: User permission check for location rules ajax call.
+* PRO: Handle headers already sent warning when setting cookie.
+* PRO: Shortcode honors announcement active/inactive state.
+* PRO: Prompt to remove multiple messages when Horizontal ticker is selected.
+
 ### 6.0
 * PRO: Option to hide countdown timer elements.
 * New: Location rule to target by WPML language.

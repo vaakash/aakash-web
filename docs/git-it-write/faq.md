@@ -159,7 +159,7 @@ Yes, shortcodes can be used as is like normal.
 
 ### How to display the GitHub edit link in the post ?
 
-There is an inbuilt shortcode `[g2w_edit_link]` which can be added to the post content template in the repository settings page. This will return an output like `Edit this page`. Below shortcode attributes are supported.
+There is an inbuilt shortcode `[giw_edit_link]` which can be added to the post content template in the repository settings page. This will return an output like `Edit this page`. Below shortcode attributes are supported.
 
 - post_id - The ID of the post to display the edit link for. Default is the current post where it is used.
 - text - The text to display. Default is "Edit this page"

@@ -5,6 +5,14 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 6.4
+
+* New: Option to set shortcode display name next to shortcode name.
+* New: Option to execute WordPress block HTML in shortcode content.
+* Fix: Shortcoder roles are registered when plugin is activated.
+* PRO: Using `do_blocks` to execute block editor content.
+* PRO: Custom editor post title is set with the shortcode name.
+
 ### 6.3.2
 * PRO: Custom editor option not saving sometimes.
 * Fix: Admin ajax vulnerability with nonce.

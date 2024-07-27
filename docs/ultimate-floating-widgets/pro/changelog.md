@@ -5,6 +5,17 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 2.9
+
+* New: Option to set image as icon for the close button.
+* Fix: Auto close on timer does not work on page load.
+* Fix: Updated fontawesome version.
+* Fix: Fontawesome icon search URL link in the admin page.
+* Fix: Adjustments to button icon and text padding.
+* PRO: Option to reveal button after a set duration.
+* PRO: User permission check for location rules ajax call.
+* PRO: Handle headers already sent warning when setting cookie.
+
 ### 2.8
 
 * Fix: Support for gradient background colors in buttons.

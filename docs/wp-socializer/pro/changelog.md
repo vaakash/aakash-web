@@ -5,6 +5,17 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 7.8
+* New: Option to save open/close state for floating sharebar with cookies.
+* Fix: Added nonce check for location rules ajax operations.
+* Fix: Update fontawesome icon version.
+
+### 7.7
+* New: Button to share using OS's native share menu.
+* New: Line icon now supports different desktop and mobile share links.
+* Fix: Reset WP query for before printing text sharebar.
+* Fix: Added permission check for AJAX calls.
+
 ### 7.6
 * New: Upgrade to FontAwesome v6
 * New: Support for X icon

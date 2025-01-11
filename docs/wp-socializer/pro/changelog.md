@@ -5,6 +5,15 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 7.9
+* New: Support for Bluesky icon.
+* New: Support for Podcast icon.
+* Fix: Social profile links in follow bar are set with rel="me" value.
+* Fix: Handle follow icons editor crash when Elegant page builder is installed.
+* Fix: Theme customize page is misaligned.
+* Fix: Disable share buttons in REST API output.
+* Fix: `null` check when current page URL is not available.
+
 ### 7.8
 * New: Option to save open/close state for floating sharebar with cookies.
 * Fix: Added nonce check for location rules ajax operations.

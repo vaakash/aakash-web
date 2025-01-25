@@ -5,6 +5,18 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 3.0
+
+* New: Option to auto trigger only on specific device.
+* New: Option to auto hide button on scroll.
+* Fix: Page scroll position calculation.
+* Fix: Adjust margin when button open/close text is empty.
+* Fix: Support for relative image paths.
+* Fix: `wp_reset_query` is called before checking location rules.
+* Fix: Auto reveal button on scroll is now based on percentage instead of pixels.
+* Fix: Auto reveal button on scroll conflict with reveal on time.
+* Fix: Upgrade to Font Awesome v6.
+
 ### 2.9
 
 * New: Option to set image as icon for the close button.

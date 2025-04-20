@@ -5,8 +5,11 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
-### 6.4
+### 6.5
+* PRO: WPML translation support.
+* Fix: Support for WordPress 6.8.
 
+### 6.4
 * New: Option to set shortcode display name next to shortcode name.
 * New: Option to execute WordPress block HTML in shortcode content.
 * Fix: Shortcoder roles are registered when plugin is activated.

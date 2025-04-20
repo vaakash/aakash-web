@@ -5,6 +5,11 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 5.3
+* New: Option to choose between media sizes from the feed.
+* PRO: Keyword editor missing nonce.
+* PRO: Keyword editor crashing on certain themes.
+
 ### 5.2
 * Fix: Order whole RSS feed by date.
 * Fix: Handle `null` returns.

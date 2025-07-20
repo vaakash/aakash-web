@@ -5,6 +5,11 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 6.5.1
+* PRO: Enhancements to insert shortcode picker for WPML.
+* PRO: Added automatic translations support for WPML.
+* Fix: Added `null` checks to fix warning in some scenarios.
+
 ### 6.5
 * PRO: WPML translation support.
 * Fix: Support for WordPress 6.8.

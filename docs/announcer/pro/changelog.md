@@ -5,6 +5,11 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 6.2
+* New: Load JS only on pages where announcement is inserted.
+* New: Option to position countdown timer to the left.
+* Fix: Handle fetch timezone issue on some scenarios for countdown timer.
+
 ### 6.1
 * New: Slide down effect on the page when announcement is shown.
 * Fix: Close button is repositioned to not overlap content.

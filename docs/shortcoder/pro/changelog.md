@@ -5,6 +5,9 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 6.5.2
+* Fix: Handle crash in select shortcode popup window when WPML is not active.
+
 ### 6.5.1
 * PRO: Enhancements to insert shortcode picker for WPML.
 * PRO: Added automatic translations support for WPML.

@@ -112,6 +112,10 @@ A: No, it is not supported. Shortcoder content only supports HTML, CSS and JavaS
 
 A: No, it is not supported. But you can achieve something similar using JavaScript.
 
+### Q: Can custom field values be sanitized before they are used in shortcode content ?
+
+A: Yes. Shortcoder sanitizes custom field values by default before using them in shortcode content. If you want to use the full custom field value as-is, including HTML or JavaScript, disable sanitization in the Shortcoder general settings.
+
 ## v5.0+ Upgrade FAQs
 
 ### Q: After v5.0 upgrade all my shortcode names have hyphens

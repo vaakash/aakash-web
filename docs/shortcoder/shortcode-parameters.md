@@ -28,3 +28,5 @@ Please refer [this page](./custom-parameters) for more info and examples on cust
 ### Custom fields
 
 With this shortcode parameter, the custom field value will be replaced. Example: If the parameter is `$$custom_field:color$$`, then this parameter will be replaced with the post's custom field value of of name "color".
+
+Note: Custom field values are sanitized by default before being used in shortcode content. If you need the full custom field value as-is, including HTML or JavaScript, you can disable sanitization in the Shortcoder general settings.

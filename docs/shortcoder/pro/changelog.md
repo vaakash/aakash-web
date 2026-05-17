@@ -5,6 +5,10 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 6.5.3
+* New: Added general setting to sanitize custom field values before using in shortcode content.
+* Fix: Support for WordPress 6.9
+
 ### 6.5.2
 * Fix: Handle crash in select shortcode popup window when WPML is not active.
 

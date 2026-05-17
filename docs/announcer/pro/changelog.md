@@ -5,6 +5,11 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 6.3
+* New: Option to start the ticker scroll from the middle of the screen.
+* Fix: Optimized ticker animation for better performance.
+* PRO: Countdown date time picker not working in some cases.
+
 ### 6.2
 * New: Load JS only on pages where announcement is inserted.
 * New: Option to position countdown timer to the left.

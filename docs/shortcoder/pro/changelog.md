@@ -5,6 +5,12 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 6.5.4
+* Fix: Select and insert shortcode popup is available only for administrators.
+* Fix: Custom parameter value will be sanitized by default.
+* Fix: Remove double slash in the JS include URL of the TinyMCE editor button.
+* Fix: Support for WordPress 7.0
+
 ### 6.5.3
 * New: Added general setting to sanitize custom field values before using in shortcode content.
 * Fix: Support for WordPress 6.9

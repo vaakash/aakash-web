@@ -13,6 +13,8 @@ With custom parameters simple templates can be created and later the parameters 
 
 Now all instances of `%%text%%` will be replaced in the shortcode content with "My custom text" and the content will be printed.
 
+Note: Custom parameter values are sanitized by default before being used in shortcode content. If you need the full parameter value as-is, including HTML or JavaScript, disable sanitization in the Shortcoder general settings.
+
 Note: Custom parameter "name" is not allowed as the same attribute name is used to identify the shortcode itself.
 
 In a shortcode content any number of custom parameters can be used. While using if any custom parameter attribute is not provided, the custom parameter tokens will be replaced but with blank content.

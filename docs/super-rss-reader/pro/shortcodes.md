@@ -47,6 +47,7 @@ The shortcode parameters supported can be also referred in `Settings` -> `Super 
 | add_nofollow | Add "nofollow" attribute to feed links. | 1 | 0 - Do not add nofollow attribute, 1 - Add nofollow attribute |
 | open_newtab | Open the feed links in new tab. | 1 | 0 - Open in same tab, 1 - Open in new tab |
 | thumbnail_position | The position of the thumbnail. | align_left | align_left - Align left, align_right - Align right, cover - Cover |
+| thumbnail_crop_position | The crop position of the thumbnail image. | center | center, top, bottom, left, right, top_left, top_right, bottom_left, bottom_right |
 | thumbnail_size | The size of the thumbnail including the units. Example: 64px, 10% | 64px |
 | thumbnail_force | Pick the thumbnail from page (feed URL) directly | no | no - No, when_absent - When absent in feed item, always - Always |
 | thumbnail_default | The URL of the default thumbnail image if not present. Leave empty to not display any thumbnail. |

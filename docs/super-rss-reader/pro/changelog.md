@@ -5,6 +5,13 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 5.5
+* New: Option to set thumbnail crop position for feed thumbnail images.
+* Fix: Support for WordPress 7.0.
+
+### 5.4
+* Fix: Handle crash with WordPress 6.9 and latest SimplePie version.
+
 ### 5.3
 * New: Option to choose between media sizes from the feed.
 * PRO: Keyword editor missing nonce.

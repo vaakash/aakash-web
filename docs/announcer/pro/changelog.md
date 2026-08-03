@@ -5,6 +5,11 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 6.4
+* New: New location rules to target WooCommerce pages.
+* Fix: Misc Admin UI enhancements.
+* Fix: Support for WordPress 7.0.
+
 ### 6.3
 * New: Option to start the ticker scroll from the middle of the screen.
 * Fix: Optimized ticker animation for better performance.

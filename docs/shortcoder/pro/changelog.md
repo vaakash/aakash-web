@@ -5,6 +5,11 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 6.6
+* New: Setting to allow Editors to browse and insert existing shortcodes from the post editor.
+* Fix: Updated Shortcoder block editor as per the latest API.
+* Fix: Support for WordPress 7.1
+
 ### 6.5.4
 * Fix: Select and insert shortcode popup is available only for administrators.
 * Fix: Custom parameter value will be sanitized by default.

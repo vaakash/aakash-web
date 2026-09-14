@@ -104,6 +104,10 @@ Paragraph 3
 
 A: Yes, other users can create/modify shortcodes when the user's role has the capability to create/edit shortcoder admin page. Plugins like [user role editor](https://wordpress.org/plugins/user-role-editor/) can be used to set the necessary capabilities on the shortcode admin page to make the users create/edit shortcodes. Please note that shortcodes created by any user can be used by any user in posts and pages.
 
+### Q: How can Editors browse and insert existing shortcodes from the post editor ?
+
+A: Enable the setting to allow Editors to browse and insert existing shortcodes from the post editor on the Shortcoder settings page. Editors can then use the shortcode browser and insert existing shortcodes while editing posts or pages.
+
 ### Q: Can I use PHP as shortcode content ?
 
 A: No, it is not supported. Shortcoder content only supports HTML, CSS and JavaScript.

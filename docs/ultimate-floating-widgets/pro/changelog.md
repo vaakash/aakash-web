@@ -5,6 +5,14 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 3.1
+
+* PRO: New location rules to target WooCommerce pages.
+* Fix: Hide UFW widgets in legacy widgets preview.
+* Fix: Add a WordPress execution guard for safer plugin loading.
+* Fix: Minor admin UI enhancements.
+* Fix: Support for WordPress 7.1.
+
 ### 3.0
 
 * New: Option to auto trigger only on specific device.

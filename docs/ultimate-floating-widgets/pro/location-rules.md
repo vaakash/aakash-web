@@ -35,6 +35,11 @@ You can create rules with conditions for the following pages,
 * `Categories of post` - To display in posts of specific post category.
 * `Tags of post` - To display in posts of specific post tags.
 * `Terms of post` - To display in posts of specific terms of the custom taxonomy.
+* `WooCommerce product` - To display on all products or specific products by ID.
+* `WooCommerce shop page` - To display on the WooCommerce shop page.
+* `WooCommerce cart page` - To display on the WooCommerce cart page.
+* `WooCommerce checkout page` - To display on the WooCommerce checkout page.
+* `WooCommerce account page` - To display on the WooCommerce account page.
 
 Every rule has an operator `is/is not` which can be used to negate the rule itself.
 

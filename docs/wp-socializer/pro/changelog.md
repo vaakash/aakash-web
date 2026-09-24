@@ -5,6 +5,14 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 8.0
+* Fix: Removed legacy and discontinued share services: Digg, Mix, Renren, Delicious, and Skype.
+* Fix: Removed Google, Pocket, and Yahoo! Mail icons.
+* Fix: Cleaned the default social icon list to keep the plugin aligned with active services.
+* Fix: Updated X timeline widget.
+* Fix: Updated FontAwesome icon library to the latest.
+* Fix: Support for WordPress 7.1
+
 ### 7.9
 * New: Support for Bluesky icon.
 * New: Support for Podcast icon.

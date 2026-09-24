@@ -21,7 +21,7 @@ taxonomy:
 <h4>With socializer.js</h4>
 <pre>
 &lt;!-- Turns into social sharebar --&gt;
-&lt;div class=&quot;socializer&quot; data-features=&quot;32px,circle,icon-white,pad&quot; data-sites=&quot;facebook,googleplus,print,email,rss&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;socializer&quot; data-features=&quot;32px,circle,icon-white,pad&quot; data-sites=&quot;facebook,print,email,rss&quot;&gt;&lt;/div&gt;
 
 &lt;script src=&quot;https://cdn.rawgit.com/vaakash/socializer/master/js/socializer.js&quot;&gt;&lt;/script&gt;
 &lt;script&gt;
@@ -176,14 +176,11 @@ taxonomy:
     &lt;li class=&quot;sr-facebook&quot;&gt;
         &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot;&gt;&lt;/i&gt;&lt;/a&gt;
     &lt;/li&gt;
-    &lt;li class=&quot;sr-googleplus&quot;&gt;
-        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-google-plus&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-    &lt;/li&gt;
 &lt;/ul&gt;
 </pre>
 <h4>With socializer.js</h4>
 <pre>
-&lt;div class=&quot;socializer&quot; data-features=&quot;32px,circle,bdr-sm,bdr-dark,bg-white,pad&quot; data-sites=&quot;twitter,facebook,googleplus&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;socializer&quot; data-features=&quot;32px,circle,bdr-sm,bdr-dark,bg-white,pad&quot; data-sites=&quot;twitter,facebook&quot;&gt;&lt;/div&gt;
 &lt;!-- Include and initialize socializer.js once --&gt;
 </pre>
 
@@ -206,9 +203,6 @@ taxonomy:
     &lt;/li&gt;
     &lt;li class=&quot;sr-facebook sr-text-in&quot;&gt;
         &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot;&gt;&lt;/i&gt; &lt;span class=&quot;text&quot;&gt;Facebook&lt;/span&gt;&lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class=&quot;sr-googleplus&quot;&gt;
-        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-google-plus&quot;&gt;&lt;/i&gt;&lt;/a&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
 </pre>

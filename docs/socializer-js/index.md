@@ -37,13 +37,13 @@ taxonomy:
 <pre>
 &lt;div class=&quot;my-buttons&quot;
 data-features=&quot;32px,circle,vertical,icon-white,pad&quot;
-data-sites=&quot;facebook,googleplus,instagram,print,email,rss,more&quot;
+data-sites=&quot;facebook,instagram,print,email,rss,more&quot;
 data-text=&quot;in&quot;
 data-meta-link=&quot;http://www.aakashweb.com/&quot;
 data-meta-title=&quot;Aakash Web&quot;
 
 data-meta-instagram=&quot;https://instagram.com/vaakash8&quot;
-data-more="pocket,digg,flickr" &gt;&lt;/div&gt;
+data-more="flickr" &gt;&lt;/div&gt;
 
 &lt;script&gt;
     socializer( '.my-buttons' );
@@ -83,9 +83,9 @@ data-more="pocket,digg,flickr" &gt;&lt;/div&gt;
 
 &lt;script&gt;
     socializer( '.my-buttons', {
-        sites: [ 'facebook', 'twitter', 'googleplus', 'print', 'email', 'rss' ],
+        sites: [ 'facebook', 'twitter', 'print', 'email', 'rss' ],
         features: '32px,circle,vertical,icon-white,pad',
-        more: 'pocket,digg,flickr',
+        more: 'flickr',
         meta: {
             link: 'https://www.aakashweb.com/',
             title: 'Aakash Web',

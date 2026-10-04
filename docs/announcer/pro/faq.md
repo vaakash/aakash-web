@@ -1,6 +1,6 @@
 ---
 title: FAQ
-menu_order: 7
+menu_order: 8
 taxonomy:
     doc_category: wordpress-plugins
 ---
@@ -18,6 +18,10 @@ A: No, the buttons will animate only after the announcement is shown on the scre
 ### Q: Can I insert the announcement anywhere using shortcode ?
 
 A: Yes, using the [Shortcode](./shortcodes.md) feature you can insert the announcement anywhere.
+
+### Q: Can I show a different announcement message on large and small screens ?
+
+A: Yes, Announcer PRO lets you set a different announcement message for large and small screens. The appropriate message is shown based on the visitor's screen size.
 
 ### Q: How to use the Shortcode in theme files ?
 

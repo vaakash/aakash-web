@@ -5,6 +5,13 @@ taxonomy:
     doc_category: wordpress-plugins
 ---
 
+### 6.5
+* PRO: Add different large- and small-screen messages.
+* New: Added basic ARIA attributes to announcement containers, close buttons, and CTA links for improved accessibility.
+* Fix: Screen-reader friendly labeling for dismiss and action controls.
+* Fix: Hide announcements in legacy widgets preview.
+* Fix: Support for WordPress 7.1.
+
 ### 6.4
 * New: New location rules to target WooCommerce pages.
 * Fix: Misc Admin UI enhancements.
